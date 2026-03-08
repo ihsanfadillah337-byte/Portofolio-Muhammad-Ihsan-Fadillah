@@ -12,6 +12,7 @@ import ProjectHBUAnalysis from "./pages/ProjectHBUAnalysis";
 import ProjectPravas from "./pages/ProjectPravas";
 import ProjectSnapSpend from "./pages/ProjectSnapSpend";
 import ProjectAsetrace from "./pages/ProjectAsetrace";
+import ProjectDocuTwin from "./pages/ProjectDocuTwin";
 
 const queryClient = new QueryClient();
 
@@ -30,6 +31,7 @@ const App = () => (
             <Route path="/project/pravas" element={<ProjectPravas />} />
             <Route path="/project/snapspend" element={<ProjectSnapSpend />} />
             <Route path="/project/asetrace" element={<ProjectAsetrace />} />
+            <Route path="/project/docutwin" element={<ProjectDocuTwin />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
