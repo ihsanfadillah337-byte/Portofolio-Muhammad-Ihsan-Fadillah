@@ -22,18 +22,6 @@ const Projects = () => {
 
   const projects: ProjectCardItem[] = [
     {
-      id: 'docutwin',
-      title: 'DocuTwin',
-      subtitle: t('Sistem Pelacakan Dokumen Phygital', 'Phygital Document Tracking System'),
-      period: '2025–2026',
-      description: t(
-        'Solusi "Digital Twin" untuk pelacakan aset dokumen birokrasi dengan QR handshake, state machine real-time, dan Row Level Security.',
-        'A "Digital Twin" solution for government document tracking with QR-based chain-of-custody handshakes and real-time state machines.'
-      ),
-      imageSrc: heroDocuTwin,
-      href: '/project/docutwin',
-    },
-    {
       id: 'asetrace',
       title: 'Asetrace',
       subtitle: t('Digital Twin & IoT Asset Tracking', 'Digital Twin & IoT Asset Tracking'),
@@ -44,6 +32,18 @@ const Projects = () => {
       ),
       imageSrc: heroAsetrace,
       href: '/project/asetrace',
+    },
+    {
+      id: 'docutwin',
+      title: 'DocuTwin',
+      subtitle: t('Sistem Pelacakan Dokumen Phygital', 'Phygital Document Tracking System'),
+      period: '2025–2026',
+      description: t(
+        'Solusi "Digital Twin" untuk pelacakan aset dokumen birokrasi dengan QR handshake, state machine real-time, dan Row Level Security.',
+        'A "Digital Twin" solution for government document tracking with QR-based chain-of-custody handshakes and real-time state machines.'
+      ),
+      imageSrc: heroDocuTwin,
+      href: '/project/docutwin',
     },
     {
       id: 'snapspend',
