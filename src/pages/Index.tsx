@@ -10,7 +10,7 @@ import Languages from '@/components/Languages';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 import IntroSection from '@/components/IntroSection';
-import WaveDivider from '@/components/WaveDivider';
+
 import Preloader from '@/components/ui/preloader';
 
 const Index = () => {
@@ -44,7 +44,7 @@ const Index = () => {
       >
         <Navbar />
         <IntroSection />
-        <WaveDivider />
+
         <HeroAbout />
         <Projects />
         <Education />
