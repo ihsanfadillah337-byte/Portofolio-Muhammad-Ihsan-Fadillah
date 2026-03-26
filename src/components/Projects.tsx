@@ -9,6 +9,7 @@ import heroPravas from '@/assets/hero-pravas.png';
 import heroSnapSpend from '@/assets/hero-snapspend.png';
 import heroAsetrace from '@/assets/hero-asetrace.png';
 import heroDocuTwin from '@/assets/hero-docutwin.png';
+import heroSurveySnap from '@/assets/hero-surveysnap.png';
 
 interface ProjectCardItem extends CardStackItem {
   subtitle: string;
@@ -44,6 +45,18 @@ const Projects = () => {
       ),
       imageSrc: heroDocuTwin,
       href: '/project/docutwin',
+    },
+    {
+      id: 'surveysnap',
+      title: 'SurveySnap',
+      subtitle: t('Aplikasi Survei Lapangan Offline-First', 'Offline-First Field Survey App'),
+      period: '2025–2026',
+      description: t(
+        'PWA untuk dokumentasi survei aset dengan 3-way save (device + cloud + Google Drive), offline queue, dan GPS watermark otomatis.',
+        'PWA for asset survey documentation with 3-way save (device + cloud + Google Drive), offline queue, and auto GPS watermark.'
+      ),
+      imageSrc: heroSurveySnap,
+      href: '/project/surveysnap',
     },
     {
       id: 'snapspend',
