@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useLanguage } from '@/contexts/LanguageContext';
-import { ArrowLeft, ArrowUp, FileText, QrCode, Shield, Server, Scan, Database, BarChart3, Zap } from 'lucide-react';
+import { ArrowLeft, ArrowUp, FileText, QrCode, Shield, Server, Database, BarChart3, Zap, Scan, Users } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { oneDark } from 'react-syntax-highlighter/dist/esm/styles/prism';
@@ -16,14 +16,7 @@ const CodeBlock = ({ children, language = 'typescript' }: { children: string; la
     <SyntaxHighlighter
       language={language}
       style={oneDark}
-      customStyle={{
-        margin: 0,
-        padding: '1.5rem',
-        fontSize: '0.8125rem',
-        lineHeight: '1.7',
-        borderRadius: 0,
-        background: '#1e1e2e',
-      }}
+      customStyle={{ margin: 0, padding: '1.5rem', fontSize: '0.8125rem', lineHeight: '1.7', borderRadius: 0, background: '#1e1e2e' }}
       wrapLongLines
     >
       {children.trim()}
@@ -33,7 +26,7 @@ const CodeBlock = ({ children, language = 'typescript' }: { children: string; la
 
 const AsciiDiagram = ({ children }: { children: string }) => (
   <div className="rounded-xl overflow-x-auto my-6 shadow-lg border border-slate-700/50 bg-[#1e1e2e] p-6">
-    <pre className="text-[0.75rem] md:text-[0.8125rem] leading-relaxed text-emerald-400 font-mono whitespace-pre">
+    <pre className="text-[0.7rem] md:text-[0.8rem] leading-relaxed text-emerald-400 font-mono whitespace-pre">
       {children.trim()}
     </pre>
   </div>
@@ -54,12 +47,6 @@ const Divider = () => (
   <div className="w-16 h-1 bg-gradient-to-r from-blue-600 to-sky-400 rounded-full mb-6" />
 );
 
-const Badge = ({ children }: { children: string }) => (
-  <span className="px-3 py-1.5 rounded-full text-xs font-semibold bg-blue-50 text-blue-700 border border-blue-200/50">
-    {children}
-  </span>
-);
-
 const ProjectDocuTwin = () => {
   const { t } = useLanguage();
   const navigate = useNavigate();
@@ -71,7 +58,7 @@ const ProjectDocuTwin = () => {
     <div className="min-h-screen bg-gradient-to-b from-[#F8FAFC] via-[#EFF6FF] to-[#F8FAFC]">
       <Navbar />
 
-      {/* Hero Section */}
+      {/* Hero */}
       <div className="relative h-[55vh] md:h-[60vh] overflow-hidden bg-gradient-to-br from-[#0F172A] via-[#1E293B] to-[#0F172A]">
         <div className="absolute inset-0 opacity-[0.06]" style={{
           backgroundImage: 'linear-gradient(rgba(59,130,246,0.5) 1px, transparent 1px), linear-gradient(90deg, rgba(59,130,246,0.5) 1px, transparent 1px)',
@@ -87,16 +74,16 @@ const ProjectDocuTwin = () => {
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-editorial font-bold text-white mb-3">DocuTwin</h1>
           <p className="text-lg md:text-xl text-blue-200/80 font-medium max-w-2xl mb-6">
-            Phygital Document Tracking System
+            {t('Sistem Pelacakan Dokumen Phygital', 'Phygital Document Tracking System')}
           </p>
           <div className="flex flex-wrap gap-3 mb-2">
             <span className="text-xs font-semibold text-white/60 uppercase tracking-wider self-center mr-1">Role:</span>
-            <span className="text-sm text-white/90 font-medium">Full-Stack Developer & System Architect</span>
+            <span className="text-sm text-white/90 font-medium">Full-Stack Developer</span>
           </div>
           <div className="flex flex-wrap gap-2 mt-3">
-            {['React', 'TypeScript', 'Supabase', 'PostgreSQL RLS', 'QR Protocol', 'Real-time WebSocket'].map(t => (
-              <span key={t} className="px-3 py-1 rounded-full text-xs font-medium bg-white/10 text-white/80 border border-white/10 backdrop-blur-sm">
-                {t}
+            {['React', 'TypeScript', 'Supabase', 'PostgreSQL', 'QR Code', 'Real-time'].map(tag => (
+              <span key={tag} className="px-3 py-1 rounded-full text-xs font-medium bg-white/10 text-white/80 border border-white/10 backdrop-blur-sm">
+                {tag}
               </span>
             ))}
           </div>
@@ -106,450 +93,192 @@ const ProjectDocuTwin = () => {
       {/* Content */}
       <div className="max-w-4xl mx-auto px-6 py-12 md:py-16">
 
+        {/* TL;DR */}
+        <div className="bg-gradient-to-r from-blue-50 to-sky-50 border border-blue-200/50 rounded-2xl p-6 mb-8">
+          <p className="text-sm font-bold text-blue-600 uppercase tracking-wider mb-2">TL;DR</p>
+          <p className="text-foreground/80 leading-relaxed">
+            {t(
+              'DocuTwin membuat setiap dokumen fisik punya "kembaran digital" yang bisa dilacak secara real-time. Saat dokumen dikirim, sistem menghasilkan QR code. Saat diterima, penerima scan QR tersebut — dan sistem otomatis memverifikasi apakah dokumen sampai ke tujuan yang benar.',
+              'DocuTwin gives every physical document a "digital twin" that can be tracked in real-time. When a document is sent, the system generates a QR code. When received, the recipient scans that QR — and the system automatically verifies if the document arrived at the correct destination.'
+            )}
+          </p>
+        </div>
+
         {/* ========== SECTION 1: OVERVIEW ========== */}
-        <SectionHeading icon={FileText}>1. Project Overview & The "Phygital" Concept</SectionHeading>
+        <SectionHeading icon={FileText}>
+          {t('1. Mengapa DocuTwin Dibuat?', '1. Why DocuTwin Was Built')}
+        </SectionHeading>
         <Divider />
-
-        <SubHeading>The Problem</SubHeading>
-        <div className="prose prose-slate max-w-none">
-          <p className="text-foreground/80 leading-relaxed mb-4">
-            In Indonesian government institutions (SKPD — <em>Satuan Kerja Perangkat Daerah</em>), thousands of physical documents are sent between agencies daily — budget approvals, asset verification letters, classified correspondence. While digital systems exist to <em>catalog</em> these documents, they suffer from a critical blind spot: <strong>the physical chain-of-custody</strong>.
-          </p>
-          <p className="text-foreground/80 leading-relaxed mb-4">
-            Once a document leaves the sender's desk and enters the hands of a courier, it becomes invisible. There is no tracking, no verification at destination, and no audit trail proving <em>who received what, when, and from whom</em>. This creates several real-world risks:
-          </p>
-          <ul className="space-y-2 text-foreground/80 mb-6 list-disc list-inside">
-            <li><strong>Misdelivery</strong> — A courier delivers a document to the wrong agency. Without verification, it gets filed and the error is only discovered weeks later.</li>
-            <li><strong>Accountability Gaps</strong> — When documents go missing, there is no forensic trail to establish where the chain of custody broke.</li>
-            <li><strong>Classification Breaches</strong> — Confidential (Rahasia) documents have no mechanism to prevent wrong-party receipt.</li>
-          </ul>
-        </div>
-
-        <SubHeading>The Solution: Digital Twins for Physical Assets</SubHeading>
-        <div className="prose prose-slate max-w-none">
-          <p className="text-foreground/80 leading-relaxed mb-4">
-            <strong>DocuTwin</strong> solves this by creating a <em>digital twin</em> — a real-time digital replica of every physical document's lifecycle. The concept of "phygital" (physical + digital) is realized through a <strong>QR Code-based handshake protocol</strong>: every outgoing physical document is bound to a UUID-tracked database record, and the physical receipt at the destination is validated through a camera-based QR scan that executes server-side verification logic.
-          </p>
-          <p className="text-foreground/80 leading-relaxed mb-4">The system guarantees that:</p>
-          <ol className="space-y-2 text-foreground/80 mb-6 list-decimal list-inside">
-            <li>Every physical document has a 1:1 digital counterpart tracked in real-time.</li>
-            <li>Receipt is <strong>verified programmatically</strong> — not by human confirmation.</li>
-            <li>A document intended for Agency A <strong>cannot</strong> be marked as received by Agency B — the system auto-rejects mismatches.</li>
-            <li>Every scan event (match or mismatch) is logged to an immutable <code className="bg-slate-100 px-1.5 py-0.5 rounded text-sm font-mono text-blue-700">scan_logs</code> audit trail.</li>
-          </ol>
-        </div>
-
-        {/* ========== SECTION 2: TECH STACK ========== */}
-        <SectionHeading icon={Server}>2. Tech Stack & Architecture</SectionHeading>
-        <Divider />
-
-        <SubHeading>Stack Composition</SubHeading>
-        <div className="overflow-x-auto my-6">
-          <table className="w-full text-sm border border-slate-200 rounded-xl overflow-hidden">
-            <thead>
-              <tr className="bg-slate-50">
-                <th className="text-left p-3 font-bold text-foreground border-b border-slate-200">Layer</th>
-                <th className="text-left p-3 font-bold text-foreground border-b border-slate-200">Technology</th>
-                <th className="text-left p-3 font-bold text-foreground border-b border-slate-200">Role</th>
-              </tr>
-            </thead>
-            <tbody className="divide-y divide-slate-100">
-              {[
-                ['Frontend Framework', 'React 18 + TypeScript', 'Component-driven SPA with strict typing'],
-                ['Build Tooling', 'Vite 5 (SWC)', 'Sub-second HMR, optimized production builds'],
-                ['UI Components', 'shadcn/ui + Radix UI', 'Accessible, composable headless components'],
-                ['Styling', 'Tailwind CSS 3 + CSS Custom Properties', 'Design token system with HSL-based theme variables'],
-                ['Animation', 'Framer Motion 12', 'Physics-based transitions for scan feedback'],
-                ['Backend-as-a-Service', 'Supabase (PostgreSQL 14+)', 'Auth, database, real-time subscriptions, RLS'],
-                ['QR Generation', 'react-qr-code', 'Client-side SVG QR encoding bound to UUIDs'],
-                ['QR Scanning', '@yudiel/react-qr-scanner', 'Camera-based barcode detection'],
-                ['Routing', 'React Router DOM 6', 'Protected routes with auth-gated layouts'],
-                ['State Management', 'React Context + useState/useMemo', 'Lightweight, no external state library'],
-                ['Date Utilities', 'date-fns 3', 'Tree-shakable date formatting'],
-              ].map(([layer, tech, role], i) => (
-                <tr key={i} className="hover:bg-blue-50/30 transition-colors">
-                  <td className="p-3 font-semibold text-foreground whitespace-nowrap">{layer}</td>
-                  <td className="p-3 text-foreground/80 font-mono text-xs">{tech}</td>
-                  <td className="p-3 text-foreground/70">{role}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-
-        <SubHeading>Client-Server Architecture</SubHeading>
-        <p className="text-foreground/80 leading-relaxed mb-2">
-          DocuTwin uses a <strong>serverless-first</strong> architecture. There is no traditional backend server — all server-side logic is handled by Supabase:
-        </p>
-
-        <AsciiDiagram>{`┌─────────────────────────────┐
-│       React SPA (Vite)      │
-│  ┌───────────┐ ┌──────────┐ │
-│  │  Outbox   │ │  Inbox   │ │
-│  │ (QR Gen)  │ │(QR Scan) │ │
-│  └─────┬─────┘ └────┬─────┘ │
-│        │             │       │
-│  ┌─────▼─────────────▼─────┐ │
-│  │  Supabase JS Client     │ │
-│  │  (supabase-js v2.98)    │ │
-│  └─────────────┬───────────┘ │
-└────────────────│─────────────┘
-                 │ HTTPS + WebSocket
-                 ▼
-┌────────────────────────────────┐
-│     Supabase Cloud Platform    │
-│  ┌──────────────────────────┐  │
-│  │   PostgreSQL Database    │  │
-│  │  ┌────────┐ ┌─────────┐ │  │
-│  │  │  RLS   │ │Functions│ │  │
-│  │  │Policies│ │(has_role│ │  │
-│  │  │        │ │get_user │ │  │
-│  │  │        │ │_agency) │ │  │
-│  │  └────────┘ └─────────┘ │  │
-│  └──────────────────────────┘  │
-│  ┌──────────┐ ┌─────────────┐  │
-│  │  Auth    │ │  Realtime   │  │
-│  │ (GoTrue) │ │  (WebSocket)│  │
-│  └──────────┘ └─────────────┘  │
-└────────────────────────────────┘`}</AsciiDiagram>
-
-        <p className="text-foreground/80 leading-relaxed mb-2">Key architectural decisions:</p>
-        <ul className="space-y-2 text-foreground/80 mb-6 list-disc list-inside">
-          <li><strong>No REST API layer</strong>: The Supabase client communicates directly with PostgreSQL via PostgREST, eliminating a custom API server.</li>
-          <li><strong>Real-time via WebSocket channels</strong>: Dashboard data is kept fresh through Supabase Realtime subscriptions, not polling.</li>
-          <li><strong>Security at the database layer</strong>: Business logic constraints are enforced via Row Level Security (RLS) policies and PostgreSQL functions — not application code.</li>
-        </ul>
-
-        {/* ========== SECTION 3: DEEP DIVE ========== */}
-        <SectionHeading icon={QrCode}>3. Deep Dive: Key Technical Implementations</SectionHeading>
-        <Divider />
-
-        <SubHeading>3.1 Dynamic QR Generation (Digital Twin Binding)</SubHeading>
-        <p className="text-foreground/80 leading-relaxed mb-2">
-          When a user registers an outgoing document via the <strong>Outbox</strong> page, the system creates a database record and binds the auto-generated PostgreSQL UUID to a QR code:
-        </p>
-
-        <CodeBlock language="typescript">{`// Outbox.tsx — Document registration
-const { data, error } = await supabase
-  .from("documents")
-  .insert({
-    document_number: docNumber.trim(),
-    subject: subject.trim(),
-    destination_skpd: destination,
-    sender: agencyName ?? "BKAD",
-    pic_sender: picSender.trim() || null,
-    courier_name: courierName.trim() || null,
-    physical_description: physicalDesc.trim() || null,
-    urgency,
-  })
-  .select()
-  .single();`}</CodeBlock>
-
-        <p className="text-foreground/80 leading-relaxed mb-2">
-          The <code className="bg-slate-100 px-1.5 py-0.5 rounded text-sm font-mono text-blue-700">.select().single()</code> chain is critical — it returns the full row <em>including the server-generated UUID</em> (<code className="bg-slate-100 px-1.5 py-0.5 rounded text-sm font-mono text-blue-700">data.id</code>). This UUID is then immediately rendered as a QR code:
-        </p>
-
-        <CodeBlock language="tsx">{`// The UUID becomes the QR payload
-<QRCode value={generatedDoc.id} size={140} level="M" />
-<p className="font-mono select-all">{generatedDoc.id}</p>`}</CodeBlock>
 
         <p className="text-foreground/80 leading-relaxed mb-4">
-          The system produces a <strong>printable shipping label</strong> (print-optimized via <code className="bg-slate-100 px-1.5 py-0.5 rounded text-sm font-mono text-blue-700">print:</code> Tailwind variants) containing the destination agency, chain-of-custody metadata, urgency classification badge, and the QR code linked to the document's database UUID. This label is physically attached to the document — the QR code is the bridge between the physical asset and its digital twin.
+          {t(
+            'Di instansi pemerintah (SKPD), ribuan surat fisik dikirim antar OPD setiap hari — surat persetujuan anggaran, verifikasi aset, surat rahasia. Masalahnya? Begitu surat keluar dari meja pengirim dan dipegang kurir, surat itu "menghilang" dari sistem. Tidak ada yang tahu surat itu sedang di mana, siapa yang menerima, dan kapan sampai.',
+            'In Indonesian government agencies (SKPD), thousands of physical documents are sent between offices daily — budget approvals, asset verifications, classified letters. The problem? Once a document leaves the sender\'s desk and goes to a courier, it becomes "invisible." Nobody knows where it is, who received it, or when it arrived.'
+          )}
         </p>
+        <p className="text-foreground/80 leading-relaxed mb-4">
+          {t('Ini menimbulkan risiko nyata:', 'This creates real risks:')}
+        </p>
+        <ul className="space-y-2 text-foreground/80 mb-6 list-disc list-inside">
+          <li>{t('Surat terkirim ke OPD yang salah, baru ketahuan berminggu kemudian', 'Documents delivered to the wrong office, discovered weeks later')}</li>
+          <li>{t('Surat hilang dan tidak ada jejak siapa yang terakhir memegang', 'Documents lost with no trail of who last held them')}</li>
+          <li>{t('Surat rahasia bisa diterima oleh pihak yang bukan tujuan', 'Confidential letters could be received by the wrong party')}</li>
+        </ul>
+
+        <SubHeading>{t('Solusi: QR Code sebagai "Jembatan"', 'Solution: QR Code as the "Bridge"')}</SubHeading>
+        <p className="text-foreground/80 leading-relaxed mb-4">
+          {t(
+            'DocuTwin menyelesaikan ini dengan konsep sederhana: setiap dokumen fisik yang dikirim mendapat QR code unik yang terhubung ke database. Saat penerima scan QR tersebut, sistem langsung mengecek — "Apakah surat ini memang ditujukan untuk OPD ini?" Jika cocok, status berubah jadi "Diterima". Jika tidak cocok, sistem langsung menolak dan mencatat kejadiannya.',
+            'DocuTwin solves this with a simple concept: every physical document sent gets a unique QR code linked to a database record. When the recipient scans that QR, the system immediately checks — "Is this document actually meant for this office?" If it matches, status changes to "Received." If not, the system rejects it and logs the event.'
+          )}
+        </p>
+
+        {/* ========== SECTION 2: HOW IT WORKS ========== */}
+        <SectionHeading icon={QrCode}>
+          {t('2. Cara Kerja Sistem', '2. How the System Works')}
+        </SectionHeading>
+        <Divider />
+
+        <SubHeading>{t('Langkah 1: Kirim Dokumen (Outbox)', 'Step 1: Send Document (Outbox)')}</SubHeading>
+        <p className="text-foreground/80 leading-relaxed mb-4">
+          {t(
+            'Pengirim mengisi form pengiriman — nomor surat, tujuan OPD, nama kurir, dan tingkat urgensi. Sistem langsung meng-generate label pengiriman lengkap dengan QR code yang bisa dicetak dan ditempel di berkas fisik.',
+            'The sender fills out a shipping form — document number, destination office, courier name, and urgency level. The system immediately generates a shipping label with a printable QR code to attach to the physical document.'
+          )}
+        </p>
+
+        <CodeBlock language="typescript">{`// Sistem menyimpan data dokumen ke database
+const { data } = await supabase
+  .from("documents")
+  .insert({
+    document_number: "SURAT/BKAD/2026/001",
+    subject: "Verifikasi Data Aset",
+    destination_skpd: "Dinas Pendidikan",
+    sender: "BKAD",
+    courier_name: "Ahmad",
+    urgency: "Biasa",
+  })
+  .select()
+  .single();
+
+// data.id = UUID unik → langsung jadi isi QR code`}</CodeBlock>
 
         {/* Screenshot: Outbox */}
         <div className="rounded-2xl overflow-hidden shadow-lg bg-white p-2 my-8 border border-slate-200">
-          <img src={screenshotOutbox} alt="DocuTwin Outbox — Tracking Ticket with QR Code" className="w-full h-auto rounded-xl" loading="lazy" />
-          <p className="text-center text-xs text-foreground/60 mt-2 pb-1">Outbox — Generated Tracking Ticket with QR Code bound to document UUID</p>
+          <img src={screenshotOutbox} alt="DocuTwin Outbox" className="w-full h-auto rounded-xl" loading="lazy" />
+          <p className="text-center text-xs text-foreground/60 mt-2 pb-1">{t('Outbox — Label pengiriman dengan QR code yang siap cetak', 'Outbox — Shipping label with printable QR code')}</p>
         </div>
 
-        <SubHeading>3.2 Two-Way Dashboard & Real-time State Machine</SubHeading>
-        <p className="text-foreground/80 leading-relaxed mb-2">
-          The Dashboard implements a <strong>dual-perspective data model</strong> with real-time synchronization:
-        </p>
-
-        <CodeBlock language="typescript">{`// Dashboard.tsx — Real-time subscription
-useEffect(() => {
-  fetchDocuments();
-  
-  const channel = supabase
-    .channel("documents-realtime")
-    .on("postgres_changes", 
-      { event: "*", schema: "public", table: "documents" }, 
-      () => { fetchDocuments(); }
-    )
-    .subscribe();
-
-  return () => { supabase.removeChannel(channel); };
-}, []);`}</CodeBlock>
-
+        <SubHeading>{t('Langkah 2: Terima & Scan (Inbox)', 'Step 2: Receive & Scan (Inbox)')}</SubHeading>
         <p className="text-foreground/80 leading-relaxed mb-4">
-          This establishes a persistent WebSocket connection that listens for <strong>any</strong> change (<code className="bg-slate-100 px-1.5 py-0.5 rounded text-sm font-mono text-blue-700">INSERT</code>, <code className="bg-slate-100 px-1.5 py-0.5 rounded text-sm font-mono text-blue-700">UPDATE</code>, <code className="bg-slate-100 px-1.5 py-0.5 rounded text-sm font-mono text-blue-700">DELETE</code>) on the <code className="bg-slate-100 px-1.5 py-0.5 rounded text-sm font-mono text-blue-700">documents</code> table and triggers a full data refresh.
+          {t(
+            'Saat dokumen sampai, penerima membuka halaman Inbox dan mengarahkan kamera ke QR code. Sistem langsung melakukan tiga hal: (1) baca QR, (2) cek di database, (3) cocokkan tujuan dokumen dengan OPD si penerima.',
+            'When the document arrives, the recipient opens the Inbox page and points the camera at the QR code. The system instantly does three things: (1) read QR, (2) check database, (3) match the document\'s destination with the recipient\'s office.'
+          )}
         </p>
 
-        <p className="text-foreground/80 leading-relaxed mb-2 font-semibold">Data partitioning by role:</p>
-        <CodeBlock language="typescript">{`const isSuperAdmin = role === "super_admin";
-const incoming = documents.filter(d => d.destination_skpd === agencyName);
-const outgoing = documents.filter(d => d.sender === agencyName);`}</CodeBlock>
+        <CodeBlock language="typescript">{`// Verifikasi: apakah dokumen ini memang untuk OPD saya?
+if (scannedDoc.destination_skpd === myAgency) {
+  // ✅ COCOK → Status berubah jadi "Diterima"
+  await updateStatus(scannedDoc.id, "Received");
+  await logScan(scannedDoc, "match");
+} else {
+  // ❌ TIDAK COCOK → Tolak, catat kejadiannya
+  await logScan(scannedDoc, "mismatch");
+  showWarning("Dokumen ini bukan untuk OPD Anda!");
+}`}</CodeBlock>
 
-        <ul className="space-y-2 text-foreground/80 mb-6 list-disc list-inside">
-          <li><strong>Super Admin</strong>: Sees all documents across all agencies in a single flat table.</li>
-          <li><strong>SKPD User</strong>: Sees two tabs — "Incoming Expected" and "Outgoing".</li>
-        </ul>
+        <p className="text-foreground/80 leading-relaxed mb-2">
+          {t('Alur state dari setiap dokumen:', 'Every document goes through this flow:')}
+        </p>
+        <AsciiDiagram>{`[Dikirim]  →  [In Transit]  →  [Diterima] ✅
+                              →  [Mismatch] ❌ (salah tujuan)
+                              →  [Not Found] ⚠️ (QR tidak valid)`}</AsciiDiagram>
 
-        <p className="text-foreground/80 leading-relaxed mb-2 font-semibold">Active vs. Archive separation:</p>
-        <CodeBlock language="typescript">{`// Main table filters to active documents only
-documents.filter(d => d.status !== "Received")
-
-// Metric cards compute against the FULL dataset
-const totalDocs = documents.length;
-const inTransit = documents.filter(d => d.status === "In Transit").length;
-const received = documents.filter(d => d.status === "Received").length;
-const warnings = documents.filter(d => 
-  d.status === "Mismatch Warning" || d.status === "Wrong Delivery"
-).length;`}</CodeBlock>
+        <SubHeading>{t('Langkah 3: Pantau Semua di Dashboard', 'Step 3: Monitor Everything on Dashboard')}</SubHeading>
+        <p className="text-foreground/80 leading-relaxed mb-4">
+          {t(
+            'Dashboard menampilkan semua dokumen secara real-time. Super Admin bisa melihat seluruh dokumen dari semua OPD. User biasa hanya bisa melihat dokumen yang dikirim dan yang ditujukan untuk OPD mereka.',
+            'The dashboard shows all documents in real-time. Super Admin can see all documents from all offices. Regular users can only see documents they sent or that are addressed to their office.'
+          )}
+        </p>
 
         {/* Screenshot: Dashboard */}
         <div className="rounded-2xl overflow-hidden shadow-lg bg-white p-2 my-8 border border-slate-200">
-          <img src={screenshotDashboard} alt="DocuTwin Dashboard — Real-time document tracking" className="w-full h-auto rounded-xl" loading="lazy" />
-          <p className="text-center text-xs text-foreground/60 mt-2 pb-1">Dashboard — Super Admin view with metric cards, search/filter, and real-time document table</p>
+          <img src={screenshotDashboard} alt="DocuTwin Dashboard" className="w-full h-auto rounded-xl" loading="lazy" />
+          <p className="text-center text-xs text-foreground/60 mt-2 pb-1">{t('Dashboard — Tampilan Super Admin dengan metric cards dan tabel dokumen real-time', 'Dashboard — Super Admin view with metric cards and real-time document table')}</p>
         </div>
 
-        <SubHeading>3.3 The "Handshake" Protocol (Camera Scanner & Verification)</SubHeading>
-        <p className="text-foreground/80 leading-relaxed mb-4">
-          The <strong>Inbox</strong> page implements the core "phygital handshake" — the moment where the physical document meets its digital twin:
-        </p>
-
-        <p className="text-foreground/80 leading-relaxed mb-2 font-semibold">Step 1: QR Decode & UUID Validation</p>
-        <CodeBlock language="typescript">{`const handleDetected = useCallback(async (rawValue: string) => {
-  if (processingRef.current || paused) return;
-
-  const trimmed = rawValue.trim();
-  // Strict UUID v4 format validation
-  if (!/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(trimmed)) 
-    return;
-
-  processingRef.current = true;
-  setPaused(true);
-  setScanState("scanning");`}</CodeBlock>
-
-        <p className="text-foreground/80 leading-relaxed mb-4">
-          The scanner uses a <code className="bg-slate-100 px-1.5 py-0.5 rounded text-sm font-mono text-blue-700">processingRef</code> (React ref, not state) to prevent race conditions during the async database lookup. A 4-second cooldown prevents accidental re-scans.
-        </p>
-
-        <p className="text-foreground/80 leading-relaxed mb-2 font-semibold">Step 2: Database Lookup</p>
-        <CodeBlock language="typescript">{`const { data: doc, error } = await supabase
-  .from("documents")
-  .select("*")
-  .eq("id", trimmed)
-  .maybeSingle();`}</CodeBlock>
-
-        <p className="text-foreground/80 leading-relaxed mb-2 font-semibold">Step 3: Destination Matching (The Handshake)</p>
-        <CodeBlock language="typescript">{`if (scannedDoc.destination_skpd === agencyName) {
-  // ✅ MATCH — Update status and log success
-  await supabase.from("documents")
-    .update({ status: "Received" })
-    .eq("id", scannedDoc.id);
-  await logScan(scannedDoc, "match");
-} else {
-  // ❌ MISMATCH — Log rejection, alert user
-  await logScan(scannedDoc, "mismatch");
-  // ... Mismatch dialog
-}`}</CodeBlock>
-
-        <p className="text-foreground/80 leading-relaxed mb-4">
-          This is the critical business logic: the system compares <code className="bg-slate-100 px-1.5 py-0.5 rounded text-sm font-mono text-blue-700">scannedDoc.destination_skpd</code> (the intended destination) against <code className="bg-slate-100 px-1.5 py-0.5 rounded text-sm font-mono text-blue-700">agencyName</code> (the authenticated user's agency). If they don't match, the document <strong>cannot</strong> be accepted — it is a wrong delivery.
-        </p>
-
-        <SubHeading>3.4 Automated Mismatch Rejection Logic</SubHeading>
-        <p className="text-foreground/80 leading-relaxed mb-2">When a mismatch is detected, the system:</p>
-        <ol className="space-y-2 text-foreground/80 mb-4 list-decimal list-inside">
-          <li><strong>Does NOT update the document status</strong> — It remains "In Transit", preserving the correct state machine.</li>
-          <li><strong>Logs the mismatch event</strong> to the <code className="bg-slate-100 px-1.5 py-0.5 rounded text-sm font-mono text-blue-700">scan_logs</code> table with forensic metadata:</li>
-        </ol>
-
-        <CodeBlock language="typescript">{`const logScan = async (doc: ScannedDoc, result: "match" | "mismatch") => {
-  await supabase.from("scan_logs").insert({
-    document_id: doc.id,
-    scanned_by: user?.id,
-    scanner_agency: agencyName ?? "Unknown",
-    expected_agency: doc.destination_skpd,
-    result,
-  });
-};`}</CodeBlock>
-
-        <p className="text-foreground/80 leading-relaxed mb-2">The scan state machine:</p>
-        <AsciiDiagram>{`idle → scanning → verified (match)
-                → mismatch  (wrong destination)
-                → error     (UUID not found in DB)`}</AsciiDiagram>
-
-        <p className="text-foreground/80 leading-relaxed mb-4">
-          Each state triggers distinct visual feedback — spinner overlay during lookup, green checkmark with spring animation on match, red X-circle with warning dialog on mismatch — all implemented via Framer Motion's <code className="bg-slate-100 px-1.5 py-0.5 rounded text-sm font-mono text-blue-700">AnimatePresence</code>.
-        </p>
-
-        {/* Screenshot: Login */}
-        <div className="rounded-2xl overflow-hidden shadow-lg bg-white p-2 my-8 border border-slate-200">
-          <img src={screenshotLogin} alt="DocuTwin Login — Authentication & SKPD Registration" className="w-full h-auto rounded-xl" loading="lazy" />
-          <p className="text-center text-xs text-foreground/60 mt-2 pb-1">Authentication — Sign In & SKPD Registration with agency-scoped access</p>
-        </div>
-
-        {/* ========== SECTION 4: DATABASE ========== */}
-        <SectionHeading icon={Database}>4. Database Schema & Security (RBAC & RLS)</SectionHeading>
+        {/* ========== SECTION 3: SECURITY ========== */}
+        <SectionHeading icon={Shield}>
+          {t('3. Keamanan & Kontrol Akses', '3. Security & Access Control')}
+        </SectionHeading>
         <Divider />
 
-        <SubHeading>PostgreSQL Schema</SubHeading>
-        <p className="text-foreground/80 leading-relaxed mb-2">
-          The Supabase PostgreSQL database consists of four core tables and two server-side functions:
+        <p className="text-foreground/80 leading-relaxed mb-4">
+          {t(
+            'Keamanan data diterapkan langsung di level database (bukan hanya di aplikasi). Artinya, walaupun seseorang memodifikasi kode aplikasi, dia tetap tidak bisa mengakses data OPD lain — karena aturannya dikunci di PostgreSQL.',
+            'Data security is enforced at the database level (not just in the app). This means even if someone modifies the app code, they still can\'t access another office\'s data — because the rules are locked in PostgreSQL.'
+          )}
         </p>
 
-        <AsciiDiagram>{`┌──────────────────────┐     ┌─────────────────────┐
-│      documents       │     │      profiles        │
-├──────────────────────┤     ├─────────────────────┤
-│ id          UUID PK  │     │ id       UUID PK/FK │
-│ document_number TEXT │     │ agency_name    TEXT  │
-│ subject         TEXT │     │ role           TEXT  │
-│ sender          TEXT │     │ created_at TIMESTAMPTZ│
-│ destination_skpd TEXT│     └─────────────────────┘
-│ status          TEXT │
-│ urgency         TEXT │     ┌─────────────────────┐
-│ pic_sender      TEXT │     │     user_roles       │
-│ courier_name    TEXT │     ├─────────────────────┤
-│ physical_description │     │ id       UUID PK    │
-│                 TEXT │     │ user_id  UUID FK    │
-│ created_at TIMESTAMPTZ│    │ role     app_role   │
-│ updated_at TIMESTAMPTZ│    │         (ENUM)      │
-└──────────┬───────────┘     └─────────────────────┘
-           │
-           │ FK: document_id
-           ▼
-┌──────────────────────┐
-│      scan_logs       │
-├──────────────────────┤
-│ id            UUID PK│
-│ document_id   UUID FK│
-│ scanned_by    UUID   │
-│ scanner_agency  TEXT │
-│ expected_agency TEXT │
-│ result          TEXT │
-│ created_at TIMESTAMPTZ│
-└──────────────────────┘
-
-ENUM app_role: 'super_admin' | 'skpd_user'
-
-FUNCTIONS:
-  get_user_agency(_user_id UUID) → TEXT
-  has_role(_user_id UUID, _role app_role) → BOOLEAN`}</AsciiDiagram>
-
-        <SubHeading>Role-Based Access Control (RBAC)</SubHeading>
-        <div className="overflow-x-auto my-6">
-          <table className="w-full text-sm border border-slate-200 rounded-xl overflow-hidden">
-            <thead>
-              <tr className="bg-slate-50">
-                <th className="text-left p-3 font-bold text-foreground border-b border-slate-200">Role</th>
-                <th className="text-left p-3 font-bold text-foreground border-b border-slate-200">Scope</th>
-                <th className="text-left p-3 font-bold text-foreground border-b border-slate-200">Capabilities</th>
-              </tr>
-            </thead>
-            <tbody className="divide-y divide-slate-100">
-              <tr className="hover:bg-blue-50/30 transition-colors">
-                <td className="p-3 font-mono text-sm font-semibold text-foreground">super_admin</td>
-                <td className="p-3 text-foreground/80">Global</td>
-                <td className="p-3 text-foreground/70">View all documents across all agencies, full system oversight</td>
-              </tr>
-              <tr className="hover:bg-blue-50/30 transition-colors">
-                <td className="p-3 font-mono text-sm font-semibold text-foreground">skpd_user</td>
-                <td className="p-3 text-foreground/80">Agency-scoped</td>
-                <td className="p-3 text-foreground/70">View/send documents for own agency only, scan incoming for own agency</td>
-              </tr>
-            </tbody>
-          </table>
+        <div className="grid gap-3 mb-6">
+          {[
+            { icon: <Users className="w-5 h-5 text-blue-600" />, title: 'Super Admin', desc: t('Bisa melihat semua dokumen dari semua OPD. Untuk pengawasan tingkat pusat.', 'Can view all documents from all offices. For central-level oversight.') },
+            { icon: <Scan className="w-5 h-5 text-blue-600" />, title: t('User OPD', 'Office User'), desc: t('Hanya bisa melihat dan mengirim dokumen untuk OPD-nya sendiri. Tidak bisa mengakses data OPD lain.', 'Can only view and send documents for their own office. Cannot access other offices\' data.') },
+          ].map((item, i) => (
+            <div key={i} className="flex items-start gap-4 p-4 rounded-xl bg-white/60 border border-blue-100 hover:border-blue-300/50 transition-colors">
+              <div className="w-10 h-10 rounded-lg bg-blue-50 flex items-center justify-center flex-shrink-0">{item.icon}</div>
+              <div>
+                <h3 className="font-bold text-foreground text-sm mb-0.5">{item.title}</h3>
+                <p className="text-foreground/70 text-sm leading-relaxed">{item.desc}</p>
+              </div>
+            </div>
+          ))}
         </div>
 
-        <p className="text-foreground/80 leading-relaxed mb-2">Role resolution during authentication follows a <strong>fallback chain</strong>:</p>
-        <CodeBlock language="typescript">{`// useAuth.tsx — fetchProfile()
-const { data: roleData } = await supabase
-  .from("user_roles")
-  .select("role")
-  .eq("user_id", userId)
-  .maybeSingle();
-setRole((roleData?.role as "super_admin" | "skpd_user") ?? "skpd_user");`}</CodeBlock>
-
-        <p className="text-foreground/80 leading-relaxed mb-4">
-          If no role is found in <code className="bg-slate-100 px-1.5 py-0.5 rounded text-sm font-mono text-blue-700">user_roles</code>, the system defaults to <code className="bg-slate-100 px-1.5 py-0.5 rounded text-sm font-mono text-blue-700">skpd_user</code> — following the principle of <strong>least privilege</strong>.
+        <p className="text-foreground/80 leading-relaxed mb-2">
+          {t('Contoh aturan keamanan di database:', 'Example database security rules:')}
         </p>
-
-        <p className="text-foreground/80 leading-relaxed mb-2">Agency name resolution similarly uses a fallback chain:</p>
-        <CodeBlock language="typescript">{`// 1. Try JWT user_metadata (set during sign-up)
-const metaAgency = metadata?.agency_name;
-if (metaAgency) {
-  setAgencyName(metaAgency);
-} else {
-  // 2. Fall back to profiles table lookup
-  const { data: profileData } = await supabase
-    .from("profiles")
-    .select("agency_name")
-    .eq("id", userId)
-    .maybeSingle();
-  setAgencyName(profileData?.agency_name ?? null);
-}`}</CodeBlock>
-
-        <SubHeading>Row Level Security (RLS)</SubHeading>
-        <p className="text-foreground/80 leading-relaxed mb-4">
-          Security enforcement happens at the <strong>database layer</strong>, not the application layer. Supabase RLS policies ensure that even if the frontend code were compromised, unauthorized data access is impossible.
-        </p>
-        <ul className="space-y-2 text-foreground/80 mb-4 list-disc list-inside">
-          <li><strong><code className="bg-slate-100 px-1.5 py-0.5 rounded text-sm font-mono text-blue-700">has_role(_user_id, _role)</code></strong>: Returns <code className="bg-slate-100 px-1.5 py-0.5 rounded text-sm font-mono text-blue-700">true</code> if the user has the specified role — used in RLS policies to grant Super Admin global access.</li>
-          <li><strong><code className="bg-slate-100 px-1.5 py-0.5 rounded text-sm font-mono text-blue-700">get_user_agency(_user_id)</code></strong>: Returns the user's agency_name — used in RLS policies to scope data access.</li>
-        </ul>
-
-        <CodeBlock language="sql">{`-- Super Admin: full access
-CREATE POLICY "super_admin_all_access" ON documents
-  FOR ALL USING (has_role(auth.uid(), 'super_admin'));
-
--- SKPD User: can read documents where they are sender or destination
+        <CodeBlock language="sql">{`-- User OPD hanya bisa baca dokumen milik OPD-nya
 CREATE POLICY "skpd_read_own" ON documents
   FOR SELECT USING (
     sender = get_user_agency(auth.uid()) 
     OR destination_skpd = get_user_agency(auth.uid())
   );
 
--- SKPD User: can insert documents as sender
-CREATE POLICY "skpd_insert_own" ON documents
-  FOR INSERT WITH CHECK (
-    sender = get_user_agency(auth.uid())
-  );
+-- Super Admin bisa akses semua
+CREATE POLICY "super_admin_all" ON documents
+  FOR ALL USING (has_role(auth.uid(), 'super_admin'));`}</CodeBlock>
 
--- SKPD User: can update status when they are the destination
-CREATE POLICY "skpd_update_status" ON documents
-  FOR UPDATE USING (
-    destination_skpd = get_user_agency(auth.uid())
-  );`}</CodeBlock>
+        {/* Screenshot: Login */}
+        <div className="rounded-2xl overflow-hidden shadow-lg bg-white p-2 my-8 border border-slate-200">
+          <img src={screenshotLogin} alt="DocuTwin Login" className="w-full h-auto rounded-xl" loading="lazy" />
+          <p className="text-center text-xs text-foreground/60 mt-2 pb-1">{t('Halaman login & registrasi OPD', 'Login & office registration page')}</p>
+        </div>
 
-        <p className="text-foreground/80 leading-relaxed mb-4">
-          This architecture ensures <strong>data isolation between agencies</strong> is enforced at the PostgreSQL level — every query is automatically filtered by the database engine before results are returned to the client.
-        </p>
-
-        {/* ========== SECTION 5: IMPACT ========== */}
-        <SectionHeading icon={BarChart3}>5. Business Impact & Scalability</SectionHeading>
+        {/* ========== SECTION 4: IMPACT ========== */}
+        <SectionHeading icon={BarChart3}>
+          {t('4. Dampak & Manfaat', '4. Impact & Benefits')}
+        </SectionHeading>
         <Divider />
 
-        <SubHeading>Operational Impact</SubHeading>
         <div className="overflow-x-auto my-6">
           <table className="w-full text-sm border border-slate-200 rounded-xl overflow-hidden">
             <thead>
               <tr className="bg-slate-50">
-                <th className="text-left p-3 font-bold text-foreground border-b border-slate-200">Metric</th>
-                <th className="text-left p-3 font-bold text-foreground border-b border-slate-200">Before DocuTwin</th>
-                <th className="text-left p-3 font-bold text-foreground border-b border-slate-200">After DocuTwin</th>
+                <th className="text-left p-3 font-bold text-foreground border-b border-slate-200">{t('Aspek', 'Aspect')}</th>
+                <th className="text-left p-3 font-bold text-foreground border-b border-slate-200">{t('Sebelum DocuTwin', 'Before DocuTwin')}</th>
+                <th className="text-left p-3 font-bold text-foreground border-b border-slate-200">{t('Sesudah DocuTwin', 'After DocuTwin')}</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-slate-100">
               {[
-                ['Delivery Verification', 'Manual sign-off (pen on paper)', 'Automated QR-based handshake'],
-                ['Mismatch Detection', 'Discovered days/weeks later', 'Instant automated rejection'],
-                ['Audit Trail', 'Non-existent', 'Immutable scan_logs with forensic metadata'],
-                ['Cross-Agency Visibility', 'Phone calls between agencies', 'Real-time dashboard for all stakeholders'],
-                ['Document Status Tracking', 'Manual status board', 'Automated lifecycle: Pending → In Transit → Received'],
+                [t('Verifikasi Penerimaan', 'Receipt Verification'), t('Tanda tangan manual di kertas', 'Manual pen-on-paper sign-off'), t('Scan QR otomatis', 'Automatic QR scan')],
+                [t('Deteksi Salah Kirim', 'Misdelivery Detection'), t('Baru ketahuan berhari/minggu kemudian', 'Discovered days/weeks later'), t('Langsung ditolak saat itu juga', 'Instantly rejected on the spot')],
+                [t('Jejak Audit', 'Audit Trail'), t('Tidak ada', 'Non-existent'), t('Setiap scan tercatat permanen', 'Every scan permanently logged')],
+                [t('Visibilitas Antar OPD', 'Cross-Office Visibility'), t('Harus telepon satu per satu', 'Must call each office'), t('Dashboard real-time', 'Real-time dashboard')],
+                [t('Status Dokumen', 'Document Status'), t('Papan tulis manual', 'Manual whiteboard'), t('Otomatis: Pending → In Transit → Diterima', 'Automated: Pending → In Transit → Received')],
               ].map(([metric, before, after], i) => (
                 <tr key={i} className="hover:bg-blue-50/30 transition-colors">
                   <td className="p-3 font-semibold text-foreground">{metric}</td>
@@ -561,52 +290,34 @@ CREATE POLICY "skpd_update_status" ON documents
           </table>
         </div>
 
-        <SubHeading>Architectural Scalability</SubHeading>
-        <ul className="space-y-3 text-foreground/80 mb-6 list-disc list-inside">
-          <li><strong>Serverless Backend</strong>: Supabase auto-scales database connections and auth sessions. No server provisioning required.</li>
-          <li><strong>Real-time Efficiency</strong>: WebSocket subscriptions replace polling — reducing network overhead from O(n) requests to O(1) persistent connections per client.</li>
-          <li><strong>Row Level Security at Scale</strong>: RLS policies are evaluated by the PostgreSQL query planner, not application code — performance scales with database indexing.</li>
-          <li><strong>Stateless Frontend</strong>: Each React client maintains its own session via JWT tokens stored in localStorage with auto-refresh.</li>
-          <li><strong>Multi-Tenancy Ready</strong>: The agency-scoped architecture supports unlimited agencies without schema changes — adding a new SKPD requires only a new user registration.</li>
-        </ul>
+        <SubHeading>{t('Arsitektur yang Scalable', 'Scalable Architecture')}</SubHeading>
+        <div className="grid gap-3 mb-6">
+          {[
+            { icon: <Server className="w-5 h-5 text-blue-600" />, title: t('Tanpa Server Sendiri', 'No Own Server'), desc: t('Semua backend ditangani Supabase — otomatis scale, tidak perlu kelola server.', 'All backend handled by Supabase — auto-scales, no server management needed.') },
+            { icon: <Zap className="w-5 h-5 text-blue-600" />, title: t('Real-time via WebSocket', 'Real-time via WebSocket'), desc: t('Dashboard langsung update tanpa perlu refresh halaman — data berubah secara instan.', 'Dashboard updates instantly without page refresh — data changes in real-time.') },
+            { icon: <Database className="w-5 h-5 text-blue-600" />, title: t('Multi-OPD Tanpa Ubah Kode', 'Multi-Office Without Code Changes'), desc: t('Tambah OPD baru cukup registrasi user baru, tidak perlu ubah database atau kode.', 'Adding a new office just requires a new user registration, no database or code changes.') },
+          ].map((item, i) => (
+            <div key={i} className="flex items-start gap-4 p-4 rounded-xl bg-white/60 border border-blue-100 hover:border-blue-300/50 transition-colors">
+              <div className="w-10 h-10 rounded-lg bg-blue-50 flex items-center justify-center flex-shrink-0">{item.icon}</div>
+              <div>
+                <h3 className="font-bold text-foreground text-sm mb-0.5">{item.title}</h3>
+                <p className="text-foreground/70 text-sm leading-relaxed">{item.desc}</p>
+              </div>
+            </div>
+          ))}
+        </div>
 
-        <SubHeading>Immutable Audit Trail</SubHeading>
-        <p className="text-foreground/80 leading-relaxed mb-2">
-          The <code className="bg-slate-100 px-1.5 py-0.5 rounded text-sm font-mono text-blue-700">scan_logs</code> table creates a permanent forensic record of every scan event:
-        </p>
-
-        <AsciiDiagram>{`scan_logs: {
-  document_id  → which document was scanned
-  scanned_by   → which user performed the scan (auth UID)
-  scanner_agency → the agency of the scanner
-  expected_agency → the intended destination
-  result       → "match" or "mismatch"
-  created_at   → timestamp
-}`}</AsciiDiagram>
-
-        <p className="text-foreground/80 leading-relaxed mb-4">
-          This data is <strong>append-only</strong> — scan logs are inserted, never updated or deleted. Combined with Supabase's built-in audit capabilities, this provides a tamper-evident chain-of-custody record suitable for government compliance requirements.
-        </p>
-
-        <SubHeading>Future Extension Points</SubHeading>
-        <ul className="space-y-3 text-foreground/80 mb-6 list-disc list-inside">
-          <li><strong>Mobile App (Capacitor)</strong>: The React SPA can be wrapped into a native Android/iOS shell with minimal code changes.</li>
-          <li><strong>Multi-Region Deployment</strong>: Supabase supports read replicas and edge functions for regional distribution.</li>
-          <li><strong>Workflow Automation</strong>: PostgreSQL triggers can send notifications on status transitions.</li>
-          <li><strong>Analytics Dashboard</strong>: The scan_logs and documents tables provide rich data for operational analytics.</li>
-        </ul>
-
-        {/* ========== TECHNOLOGY SUMMARY ========== */}
-        <SectionHeading icon={Zap}>Technology Summary</SectionHeading>
+        {/* ========== TECH STACK ========== */}
+        <SectionHeading icon={Zap}>Tech Stack</SectionHeading>
         <Divider />
 
         <div className="rounded-2xl border-2 border-blue-200/50 bg-gradient-to-r from-blue-50 to-sky-50 p-6 md:p-8 my-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
-              { label: 'Frontend', value: 'React 18 · TypeScript · Vite 5 · Tailwind CSS 3 · shadcn/ui · Framer Motion' },
-              { label: 'Backend', value: 'Supabase (PostgreSQL · Auth/GoTrue · Realtime · RLS)' },
-              { label: 'QR Stack', value: 'react-qr-code (generation) · @yudiel/react-qr-scanner (scanning)' },
-              { label: 'DevOps', value: 'Vercel (deployment) · GitHub (source control)' },
+              { label: 'Frontend', value: 'React 18 · TypeScript · Vite 5 · Tailwind CSS · shadcn/ui · Framer Motion' },
+              { label: 'Backend', value: 'Supabase (PostgreSQL · Auth · Realtime · Row Level Security)' },
+              { label: 'QR Stack', value: 'react-qr-code · @yudiel/react-qr-scanner' },
+              { label: 'DevOps', value: 'Vercel · GitHub' },
             ].map(({ label, value }) => (
               <div key={label}>
                 <p className="text-xs font-bold text-blue-600 uppercase tracking-wider mb-1">{label}</p>
@@ -618,7 +329,10 @@ CREATE POLICY "skpd_update_status" ON documents
 
         <div className="border-t border-slate-200 pt-8 mt-8">
           <p className="text-foreground/60 italic text-center text-sm leading-relaxed">
-            DocuTwin demonstrates that the most impactful enterprise solutions often bridge physical and digital worlds — not by replacing paper, but by giving paper a digital identity.
+            {t(
+              'DocuTwin membuktikan bahwa solusi enterprise paling berdampak bukan yang menggantikan kertas — tapi yang memberi kertas identitas digital.',
+              'DocuTwin proves that the most impactful enterprise solutions don\'t replace paper — they give paper a digital identity.'
+            )}
           </p>
         </div>
 
