@@ -1,5 +1,5 @@
 import { useLanguage } from '@/contexts/LanguageContext';
-import { ArrowLeft, ArrowUp, Map, Layers, Network, Database, CheckCircle2 } from 'lucide-react';
+import { ArrowLeft, ArrowUp, Map, Layers, Network, Database, CheckCircle2, ExternalLink } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { useEffect } from 'react';
@@ -170,6 +170,30 @@ const ProjectGISSoreang = () => {
               )}
             </p>
           </div>
+        </section>
+
+        {/* Access Web Map Section */}
+        <section className="bg-white p-8 md:p-10 rounded-2xl border border-slate-200 shadow-sm flex flex-col md:flex-row items-center justify-between gap-6">
+          <div className="flex items-start gap-4">
+            <div className="p-3 bg-blue-50 text-blue-600 rounded-xl">
+              <Map className="w-8 h-8" />
+            </div>
+            <div>
+              <h3 className="text-xl font-bold text-slate-900 mb-2">{t('Peta Interaktif Web GIS', 'Interactive Web GIS Map')}</h3>
+              <p className="text-slate-600">
+                {t(
+                  'Jelajahi setiap layer data (transportasi, fasilitas kesehatan, kepadatan penduduk) secara langsung dan interaktif melalui Esri ArcGIS Map Viewer.',
+                  'Explore every data layer (transport networks, healthcare facilities, population density) live and interactively via the Esri ArcGIS Map Viewer.'
+                )}
+              </p>
+            </div>
+          </div>
+          <Button asChild size="lg" className="shrink-0 bg-blue-600 hover:bg-blue-700 text-white shadow-lg shadow-blue-500/30">
+            <a href="https://www.arcgis.com/apps/mapviewer/index.html?webmap=b92fa0a9115d4db6b0c6c32c53a97a8d" target="_blank" rel="noopener noreferrer">
+              {t('Akses Peta di ArcGIS', 'Open Map in ArcGIS')}
+              <ExternalLink className="w-[18px] h-[18px] ml-2" />
+            </a>
+          </Button>
         </section>
 
         <section className="pt-8 border-t border-slate-200">
