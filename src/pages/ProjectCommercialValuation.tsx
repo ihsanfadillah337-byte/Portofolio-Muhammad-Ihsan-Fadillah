@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 import { useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import bannerImg from '@/assets/hero-asset-inventory.png';
+import bannerImg from '@/assets/hero-commercial-valuation.png';
 import {
   Table, TableBody, TableCell, TableHead, TableHeader, TableRow,
 } from "@/components/ui/table";
@@ -250,6 +250,29 @@ const ProjectCommercialValuation = () => {
               </div>
             </div>
           </div>
+        </section>
+
+        {/* Download Section */}
+        <section className="bg-white p-8 md:p-10 rounded-2xl border border-slate-200 shadow-sm flex flex-col md:flex-row items-center justify-between gap-6">
+          <div className="flex items-start gap-4">
+            <div className="p-3 bg-blue-50 text-blue-600 rounded-xl">
+              <FileText className="w-8 h-8" />
+            </div>
+            <div>
+              <h3 className="text-xl font-bold text-slate-900 mb-2">{t('Dokumentasi & Laporan Eksekutif', 'Documentation & Executive Report')}</h3>
+              <p className="text-slate-600">
+                {t(
+                  'Tinjauan komprehensif, kertas kerja perhitungan, dan dokumentasi bukti fisik dapat diakses sepenuhnya pada berkas Laporan Penilaian Aset.',
+                  'Comprehensive review, calculation worksheets, and physical evidence documentation are fully accessible in the attached Asset Valuation Report.'
+                )}
+              </p>
+            </div>
+          </div>
+          <Button asChild size="lg" className="shrink-0 bg-blue-600 hover:bg-blue-700 text-white shadow-lg shadow-blue-500/30">
+            <a href="/Laporan_Penilaian_Aset_SME.pdf" download="Laporan_Penilaian_Aset_Ihsan.pdf" target="_blank" rel="noopener noreferrer">
+              {t('Unduh Laporan Format PDF', 'Download PDF Report')}
+            </a>
+          </Button>
         </section>
 
         <section className="pt-8 border-t border-slate-200">

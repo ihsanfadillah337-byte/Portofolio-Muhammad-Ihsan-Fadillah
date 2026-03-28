@@ -14,6 +14,7 @@ import heroDocuTwin from '@/assets/hero-docutwin.png';
 import heroSurveySnap from '@/assets/hero-surveysnap.png';
 import heroSnapSpend from '@/assets/hero-snapspend.png';
 import heroAssetInventory from '@/assets/hero-asset-inventory.png';
+import heroCommercialValuation from '@/assets/hero-commercial-valuation.png';
 import heroSafetyPlanning from '@/assets/hero-safety-planning.png';
 import heroHbuAnalysis from '@/assets/hero-hbu-analysis.png';
 import heroPravas from '@/assets/hero-pravas.png';
@@ -131,7 +132,7 @@ export default function Projects() {
         'Estimasi nilai pasar (HBU) properti residensial & toko menggunakan 3 pendekatan (Pasar, Biaya, Pendapatan).',
         'Fair market value estimation of residential & commercial property using 3 approaches (Market, Cost, Income).'
       ),
-      url: heroAssetInventory,
+      url: heroCommercialValuation,
       href: '/project/commercial-valuation',
     },
   ];
