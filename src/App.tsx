@@ -15,6 +15,7 @@ import ProjectAsetrace from "./pages/ProjectAsetrace";
 import ProjectDocuTwin from "./pages/ProjectDocuTwin";
 import ProjectSurveySnap from "./pages/ProjectSurveySnap";
 import ProjectCommercialValuation from "./pages/ProjectCommercialValuation";
+import ProjectGISSoreang from "./pages/ProjectGISSoreang";
 
 const queryClient = new QueryClient();
 
@@ -36,6 +37,7 @@ const App = () => (
             <Route path="/project/docutwin" element={<ProjectDocuTwin />} />
             <Route path="/project/surveysnap" element={<ProjectSurveySnap />} />
             <Route path="/project/commercial-valuation" element={<ProjectCommercialValuation />} />
+            <Route path="/project/gis-soreang" element={<ProjectGISSoreang />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>

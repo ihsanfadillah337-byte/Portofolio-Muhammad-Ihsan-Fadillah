@@ -15,6 +15,7 @@ import heroSurveySnap from '@/assets/hero-surveysnap.png';
 import heroSnapSpend from '@/assets/hero-snapspend.png';
 import heroAssetInventory from '@/assets/hero-asset-inventory.png';
 import heroCommercialValuation from '@/assets/hero-commercial-valuation.png';
+import heroGISSoreang from '@/assets/project-gis-soreang-3.jpg';
 import heroSafetyPlanning from '@/assets/hero-safety-planning.png';
 import heroHbuAnalysis from '@/assets/hero-hbu-analysis.png';
 import heroPravas from '@/assets/hero-pravas.png';
@@ -134,6 +135,18 @@ export default function Projects() {
       ),
       url: heroCommercialValuation,
       href: '/project/commercial-valuation',
+    },
+    {
+      id: 10,
+      title: t('Pemetaan Sarana Prasarana (Web GIS)', 'Infrastructure Mapping (Web GIS)'),
+      subtitle: t('Kecamatan Soreang, Bandung', 'Soreang District, Bandung'),
+      category: 'Consulting',
+      description: t(
+        'Overlay spasial, analisis radius fasilitas pendidikan, serta Heat Map kepadatan penduduk menggunakan platform Esri.',
+        'Spatial overlay, educational facility radius analysis, and population density Heat Map using the Esri platform.'
+      ),
+      url: heroGISSoreang,
+      href: '/project/gis-soreang',
     },
   ];
 
