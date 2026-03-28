@@ -122,6 +122,18 @@ export default function Projects() {
       url: heroPravas,
       href: '/project/pravas',
     },
+    {
+      id: 9,
+      title: t('Penilaian Aset Komersial', 'Commercial Asset Valuation'),
+      subtitle: t('Warung Seblak Wa Rima, Soreang', 'Warung Seblak Wa Rima, Soreang'),
+      category: 'Consulting',
+      description: t(
+        'Estimasi nilai pasar (HBU) properti residensial & toko menggunakan 3 pendekatan (Pasar, Biaya, Pendapatan).',
+        'Fair market value estimation of residential & commercial property using 3 approaches (Market, Cost, Income).'
+      ),
+      url: heroAssetInventory,
+      href: '/project/commercial-valuation',
+    },
   ];
 
   const categories = [

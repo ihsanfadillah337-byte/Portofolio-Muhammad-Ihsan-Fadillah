@@ -1,0 +1,1385 @@
+LAPORAN PENILAIAN ASET PROPERTI  
+WARUNG SEBLAK WA RIMA DI KABUPATEN BANDUNG 
+ 
+          KJPP : Ihsan Valuation Service 
+ 
+ 
+Laporan ini disusun untuk memenuhi tugas mata kuliah Penilaian Aset pada semester 
+V Program Studi D-IV Manajemen Aset 
+ 
+Disusun Oleh: 
+Muhammad Ihsan Fadillah  
+235244078 
+ 
+ 
+ 
+ 
+ 
+PROGRAM DIPLOMA IV MANAJEMEN ASET 
+JURUSAN ADMINISTRASI NIAGA 
+POLITEKNIK NEGERI BANDUNG  
+2025 
+ 
+
+ 
+IHSAN V ALUATION SERVICE 
+  
+  
+ KANTOR JASA PENILAI PUBLIK 
+  
+Jl. Sariasih II No. 50B, Kota Bandung, Jawa Barat 
+  
+Email: Ihsanvaluation@gmail.com 
+  
+ 
+DAFTAR ISI 
+ 
+BAGIAN I  SCOPE OF WORK ............................................................................ 6 
+1.1. Identifikasi Status Penilai ............................................................................... 6 
+1.2. Identifikasi Pemberi Tugas ............................................................................. 7 
+1.3. Maksud dan Tujuan Penilaian ........................................................................ 8 
+1.4. Identifikasi Objek Penilaian ........................................................................... 9 
+1.5. Identifikasi Bentuk Kepemilikan .................................................................... 9 
+1.6. Dasar Nilai .................................................................................................... 10 
+1.7. Tanggal Penilaian ......................................................................................... 11 
+1.8. Jenis dan Mata Uang Yang Digunakan ......................................................... 11 
+1.9. Tingkat Kedalaman Investigasi .................................................................... 11 
+1.10. Sifat dan Sumber Informasi yang Dapat Diandalkan ...................................... 12 
+1.11. Konfirmasi Bahwa Penilaian Dilakukan Berdasarkan SPI .......................... 13 
+BAGIAN II FORMULIR INSPEKSI ................................................................. 15 
+2.1. Hasil Inspeksi Lapangan................................................................................... 15 
+2.1.1 Data Lingkungan......................................................................................... 15 
+2.1.2 Data Properti ............................................................................................... 16 
+2.1.3 Data Tanah .................................................................................................. 16 
+2.1.4 Data Bangunan ............................................................................................ 17 
+2.1.5 Data Pembanding ........................................................................................ 18 
+BAGIAN III PENDEKATAN PENILAIAN ...................................................... 22 
+3.1. Pendekatan Penilaian ........................................................................................ 22 
+3.1.1 Pendekatan Data Pasar ................................................................................ 23 
+3.1.2 Pendekatan Biaya ........................................................................................ 25 
+3.1.3 Pendekatan Pendapatan............................................................................... 27 
+BAGIAN IV KESIMPULAN............................................................................... 33 
+4.1. Kesimpulan ....................................................................................................... 33 
+4.2. Rekonsiliasi Nilai ............................................................................................. 33 
+ 
+ 
+IHSAN V ALUATION SERVICE 
+  
+  
+ KANTOR JASA PENILAI PUBLIK 
+  
+Jl. Sariasih II No. 50B, Kota Bandung, Jawa Barat 
+  
+Email: Ihsanvaluation@gmail.com 
+  
+DAFTAR GAMBAR 
+ 
+Gambar 1 Tampak Depan Rumah Objek Pembanding 1 ............................................ 18 
+Gambar 2 Tampak Depan Rumah Objek Pembanding 2 ............................................ 19 
+Gambar 3 Tampak Depan Rumah Objek Pembanding 3 ............................................ 20 
+  
+ 
+IHSAN V ALUATION SERVICE 
+  
+  
+ KANTOR JASA PENILAI PUBLIK 
+  
+Jl. Sariasih II No. 50B, Kota Bandung, Jawa Barat 
+  
+Email: Ihsanvaluation@gmail.com 
+  
+DAFTAR TABEL 
+ 
+Tabel 1. Identifikasi Status Penilai ................................................................................ 7 
+Tabel 2. Identifikasi Pemberi Tugas .............................................................................. 8 
+Tabel 3. Identifikasi Objek Penilaian ............................................................................ 9 
+Tabel 4. Identifikasi Sumber Informasi ....................................................................... 12 
+Tabel 5. Data Lingkungan ........................................................................................... 15 
+Tabel 6. Data Properti ................................................................................................. 16 
+Tabel 7. Data Tanah ..................................................................................................... 16 
+Tabel 8. Data Bangunan .............................................................................................. 17 
+Tabel 9. Data Pembanding .......................................................................................... 18 
+Tabel 10. Tabel Data Pembanding Objek Penilaian .................................................... 23 
+Tabel 11. Perhitungan Nilai Pasar Tanah .................................................................... 24 
+Tabel 12. Pembobotan dan Rekonsiliasi ..................................................................... 25 
+Tabel 13. Perhitungan Nilai Bangunan Baru (RCN) ................................................... 26 
+Tabel 14. Pendapatan Kotor Efektif ............................................................................ 29 
+Tabel 15. Ringkasan Perhitungan Pendapatan Bersih Operasional (NOI) .................. 30 
+Tabel 16. Perhitungan Pendekatan Pendapatan ........................................................... 32 
+ 
+  
+ 
+IHSAN V ALUATION SERVICE 
+  
+  
+ KANTOR JASA PENILAI PUBLIK 
+  
+Jl. Sariasih II No. 50B, Kota Bandung, Jawa Barat 
+  
+Email: Ihsanvaluation@gmail.com 
+  
+DAFTAR LAMPIRAN 
+Lampiran A Lembar Form Inspeksi ............................................................................ 21 
+Lampiran B Gambar Teknis Warung Seblak Wa Rima ............................................... 39 
+ 
+  
+ 
+IHSAN V ALUATION SERVICE 
+  
+  
+ KANTOR JASA PENILAI PUBLIK 
+  
+Jl. Sariasih II No. 50B, Kota Bandung, Jawa Barat 
+  
+Email: Ihsanvaluation@gmail.com 
+  
+  
+
+ 
+IHSAN V ALUATION SERVICE 
+  
+  
+ KANTOR JASA PENILAI PUBLIK 
+  
+Jl. Sariasih II No. 50B, Kota Bandung, Jawa Barat 
+  
+Email: Ihsanvaluation@gmail.com 
+  
+BAGIAN I  
+SCOPE OF WORK 
+ 
+Dalam pengembangan praktek penilaian, adalah menjadi tanggung jawab Penilai 
+untuk mendefinisikan permasalahan tugas yang akan dilaksanakan, menentukan dasar 
+penugasan se suai permasalahan yang telah didefinisikan dan selanjutnya 
+ditindaklanjuti dengan proses implementasi dalam bentuk invest igasi dan penerapan 
+pendekatan secara keseluruhan, sehingga penilaian dimaksud akan memberikan hasil 
+yang dapat diyakini dan dipercaya, Untuk memenuhi kebutuhan Pemberi Tugas dan 
+meminimalkan kemungkinan terjadi nya kesalahpahaman dan perselisihan, maka 
+penting bagi Penilai untuk berusaha menetapkan, memahami, dan menyetujui 
+kebutuhan dan persyaratan Pemberi Tugas (KEPI & SPI, 2018). 
+Selanjutnya pada KEPI & SPI disebutkan bahwa Lingkup Penugasan mengatur 
+hal-hal yang prinsip dalam kesepakatan pemberian jasa oleh Penilai kepada Pemberi 
+Tugas. Pengaturan itu meliputi, persyaratan minimum yang harus dilaksanakan Penilai. 
+Dasar kesepakatan yang diatur tersebut merupakan bagian dari proses penilaian yang 
+berlaku secara umum dalam praktek penilaian. Terdapat 11 persyaratan pada SOW ini. 
+1.1. Identifikasi Status Penilai 
+Menurut Peraturan Menteri Keuangan (PMK) Nomor 101/2014 Penilai adalah 
+seseorang yang memiliki kompetensi dalam melakukan kegiatan Penilaian, yang 
+sekurang-kurangnya telah lulus pendidikan awal Penilaian (yaitu Pendidikan Dasar 
+Penilaian I dan II) yang dis elenggarakan oleh asosiasi penilai (Masyarakat Profesi 
+Penilai Indonesia/MAPPI). Identifikasi status penilai, merupakan suatu pernyataan 
+yang berisikan apakah dentitas penilai sebagai individu atau instansi/Kantor Jasa 
+Penilai Publik, lalu memastikan apaka h penilai dalam posisi untuk memberikan 
+penilaian obyektif dan tidak memihak; Selain itu, untuk memastikan bahwa penilai 
+tidak mempunyai atau mempunyai potensi benturan kepentingan dengan subyek dan 
+atau obyek penilaian serta penilai memiliki kompetensi untuk melakukan penilaian. 
+ 
+IHSAN V ALUATION SERVICE 
+  
+  
+ KANTOR JASA PENILAI PUBLIK 
+  
+Jl. Sariasih II No. 50B, Kota Bandung, Jawa Barat 
+  
+Email: Ihsanvaluation@gmail.com 
+  
+Dalam pelaksanaan penugasan ini penilai yang terlibat dalam pelaksanaan 
+penugasan, dilakukan oleh kantor pelayanan penilaian Publik Ihsan Valuation Service. 
+Data penilai dapat dilihat sebagai berikut. 
+Tabel 1. Identifikasi Status Penilai 
+Perusahaan Penilai Aset Ihsan Valuation Service 
+Nama Penilai Aset Muhammad Ihsan Fadillah 
+Kualifikasi Penilaian Properti Berijin 
+Status Penilai Penilai Publik 
+No. Izin Penilai Publik P-1.12.28374 
+No. Telepon/E-mail 083137765943 /Ihsanvaluation@gmail.com 
+Alamat Alamat : Jl. Sariasih II No.50B, Sarijadi, 
+Kec. Sukasari, Kota Bandung, Jawa Barat 
+40151 
+Tugas Penilai diatas bertugas untuk memberikan 
+penilaian secara objektif dan tidak memihak 
+kepada siapapun. Penilai tidak mempunyai 
+kepentingan dengan pemberi tugas serta 
+tidak mempunyai kepentingan finansial 
+terhadap properti yang dinilai serta hasil dari 
+penilaian yang dilakukan. 
+ 
+1.2. Identifikasi Pemberi Tugas 
+Menurut SPI, pemberi tugas merujuk kepada seorang, kelompok, atau suatu 
+entitas yang penugasan penilaiannya dilakukan, dimana dapat melibatkan penugasan 
+dari pihak eksternal (seperti penugasan dari pihak ketiga) serta penugasan dari pihak 
+internal (seperti  penugasan yang dilakukan sebagai pegawai/tim pelaksana). 
+Melakukan konfirmasi kepada siapa penilaian ditujukan adalah penting dalam 
+ 
+IHSAN V ALUATION SERVICE 
+  
+  
+ KANTOR JASA PENILAI PUBLIK 
+  
+Jl. Sariasih II No. 50B, Kota Bandung, Jawa Barat 
+  
+Email: Ihsanvaluation@gmail.com 
+  
+menentukan format dan isi laporan penilaian, agar dapat memastikan bahwa laporan 
+berisi informasi yang relevan dengan kebutuhan. 
+Berikut merupakan identifikasi Pemberi Tugas dan Pengguna dari Laporan 
+Penilaian: 
+Tabel 2. Identifikasi Pemberi Tugas 
+Nama Lengkap Rima Hikmawati 
+Alamat Desa Sindang Wargi RT 01 RW 22 No. 89, Kecamatan 
+Soreang, Kabupaten Bandung, Jawa Barat 40911. 
+Institusi/Pekerjaan Pelaku Usaha (Pemilik Warung Seblak Wa Rima) 
+No. Telepon 0898-3619-357 
+Alamat E-mail - 
+ 
+1.3. Maksud dan Tujuan Penilaian 
+Penilaian ini dilaksanakan dengan maksud untuk mengetahui estimasi nilai pasar 
+wajar (market value) atas tanah seluas 273 m² dan bangunan seluas 56 m² milik Ibu 
+Rima Hikmawati, yang berlokasi di Desa Sindang Wargi RT 01 RW 22, Kecamatan 
+Soreang, Kabupaten Bandung, Jawa Barat. Penilaian ini dilakukan dengan berpedoman 
+kepada Standar Penilaian Indonesia (SPI) Edisi VII -2018 yang dikeluarkan oleh 
+MAPPI (Masyarakat Profesi Penilai Indonesia) dan Kode Etik Penilaian Indonesia 
+(KEPI) 2018. Sehubungan dengan kemungkinan perubahan yang terjadi terhadap 
+kondisi pasar dan kondisi aset ter sebut, maka laporan penilaian ini hanya dapat 
+mempresentasikan tentang opini Nilai Pasar pada saat tanggal penilaian. Penilai 
+berasumsi bahwa kondisi aset tersebut pada saat tanggal penilaian sama dengan pada 
+saat investigasi lapangan. 
+ 
+IHSAN V ALUATION SERVICE 
+  
+  
+ KANTOR JASA PENILAI PUBLIK 
+  
+Jl. Sariasih II No. 50B, Kota Bandung, Jawa Barat 
+  
+Email: Ihsanvaluation@gmail.com 
+  
+1.4. Identifikasi Objek Penilaian 
+Objek penilaian meliputi aset antara lain, real properti, personal properti, bisnis, 
+dan hak kepemilikan finansial. Klarifikasi mungkin diperlukan untuk membedakan 
+antara objek penilaian dan kepentingan atau hak untuk menggunakan objek penilaian 
+tersebut. 
+Berikut merupakan tabel identifikasi objek penilaian: 
+Tabel 3. Identifikasi Objek Penilaian 
+Nama Objek yang 
+Dinilai 
+Warung Seblak Wa Rima 
+Alamat Objek Desa Sindang Wargi RT 01 RW 22 No. 89, Kecamatan 
+Soreang, Kabupaten Bandung, Provinsi Jawa Barat, 
+Kode Pos 40911. 
+Luas Lahan 273 m² 
+Luas Bangunan 56 m² 
+Bentuk Tanah Trapesium 
+Penggunaan 
+dan/Pemanfaatan saat 
+ini (TUSI) 
+Tempat tinggal sekaligus tempat usaha kuliner 
+Keterangan Khusus - 
+Peruntukan Tata 
+Ruang 
+Kawasan Pemukiman 
+Status Tanah Hak Milik 
+ 
+1.5. Identifikasi Bentuk Kepemilikan 
+Bentuk kepemilikan dari objek penilaian yang dinilai yaitu milik atas nama Rima 
+Hikmawati. Dengan memiliki dokumen aspek kepemilikan dan legalitas objek 
+penilaian yaitu akta tanah dan sertifikat hak milik (SHM). 
+ 
+IHSAN V ALUATION SERVICE 
+  
+  
+ KANTOR JASA PENILAI PUBLIK 
+  
+Jl. Sariasih II No. 50B, Kota Bandung, Jawa Barat 
+  
+Email: Ihsanvaluation@gmail.com 
+  
+1.6. Dasar Nilai 
+Dasar nilai yang digunakan untuk menilai harga properti menggunakan 
+pendekatan nilai pasar, pendekatan biaya, dan pendekatan pendapatan. 
+1. Nilai pasar (Market Value) didefinisikan sebagai estimasi sejumlah uang yang 
+dapat diperoleh dari hasil penukaran suatu aset atau liabilitas pada tanggal 
+penilaian, antara pembeli yang berminat membeli dengan penjual yang 
+berminat menjual, dalam suatu transaksi bebas ikatan, yang pemasarannya 
+dilakukan secara layak, dimana kedua pihak masingmasing bertindak atas dasar 
+pemahaman yang dimilikinya, kehati-hatian dan tanpa paksaan (SPI 101 - 3.1). 
+Pendekatan harga pasar adalah proses penentuan nilai wajar as et berdasarkan 
+harga jual aset yang serupa dengan objek penilaian. Pendekatan ini 
+mengharuskan Penilai atau tim penilai untuk melakukan survei lapangan 
+dengan tujuan mencari aset yang serupa/objek pembanding dengan objek 
+penilaian. Persyaratan fundamental yan g harus diperhatikan dalam mencari 
+objek pembanding adalah harus “sejenis” dan “sebanding”. 
+2. Dalam pendekatan biaya, nilai wajar ditentukan dari biaya 
+pembuatan/penggantian baru atau Replacement Cost  New (RCN) dikurangi 
+dengan penyusutan. RCN adalah biaya yang dikeluarkan untuk mendirikan 
+gedung atau bangunan dengan kondisi yang lebih baru. Pada umumnya, objek- 
+objek penilaian yang dihitung dengan pendekatan biaya adalah BMN berupa 
+gedung dan bangunan. 
+3. Dengan pendekatan pendapatan, nilai wajar aset ditentukan dari jumlah income 
+atau pendapatan yang dihasilkan dari aset tersebut. Aset yang dihitung 
+menggunakan pendekatan pendapatan adalah aset -aset yang menghasilkan 
+pendapatan atau aset Highest and Bes t Use (HBU). Secara komprehensif, aset 
+HBU adalah aset yang mana apabila daya guna dan fungsi aset tersebut 
+dimanfaatkan secara maksimal akan mendatangkan hasil yang maksimal. 
+Sebuah properti dikatakan telah memenuhi kriteria HBU bilamana secara fisik 
+ 
+IHSAN V ALUATION SERVICE 
+  
+  
+ KANTOR JASA PENILAI PUBLIK 
+  
+Jl. Sariasih II No. 50B, Kota Bandung, Jawa Barat 
+  
+Email: Ihsanvaluation@gmail.com 
+  
+dimungkinkan ( physically feasible ), diijinkan secara peraturan ( legally 
+permissible), layak secara finansial ( financially feasible ), dan dapat 
+memberikan hasil yang paling maksimal ( maximally productive ). Terdapat 
+beberapa metode dalam pendekatan pendapatan, yaitu metode kapitalisasi 
+langsung (direct capitalization method ), metode arus kas yang didiskontokan 
+(Discounted Cash Flow/DCF method), dan metode gross income multiplier. 
+1.7. Tanggal Penilaian 
+Kegiatan penilaian dilakukan ses uai dengan periode/ bulan pada saat penilaian 
+pertama kali dilakukan sampai dengan laporan hasil penilaian selesai. Penilaian ini 
+dilaksanakan mulai pada tanggal 19 Oktober 2025 dan memulai inspeksi lapangan pada 
+tanggal 26 Oktober 2025. Selain itu juga, kegiatan penilaian ini akan berakhir pada 
+tanggal 07 Desember 2025. 
+1.8. Jenis dan Mata Uang Yang Digunakan 
+Terkait dengan hasil penilaian yaitu has il dari nilai suatu lahan/yang dijadikan 
+sebagai obyek. Maka dibutuhkan suatu hasil angka yang dinyatakan dalam suatu mata 
+uang yaitu Rupiah (Rp). 
+1.9. Tingkat Kedalaman Investigasi 
+Penilaian dilakukan dengan tingkat investigasi menengah ( moderate level of 
+investigation), yang mencakup inspeksi lapangan langsung, wawancara dengan 
+pemilik, observasi lingkungan sekitar, serta pengumpulan data pasar pembanding di 
+wilayah Kecamatan Soreang dan sekitarnya. 
+Penilai melakukan pemeriksaan terhadap kondisi fisik, legalitas, serta 
+karakteristik ekonomi dari properti tanpa melakukan uji teknis laboratorium atau audit 
+keuangan mendalam. 
+Tingkat kedalaman penilaian meliputi kegiatan berikut: 
+ 
+IHSAN V ALUATION SERVICE 
+  
+  
+ KANTOR JASA PENILAI PUBLIK 
+  
+Jl. Sariasih II No. 50B, Kota Bandung, Jawa Barat 
+  
+Email: Ihsanvaluation@gmail.com 
+  
+­ Observasi lapangan langsung pada tanggal 26 Oktobe r, 30 Oktober, 15 
+November, dan 22 November  2025 untuk memverifikasi kondisi fisik 
+bangunan dan lingkungan; 
+­ Wawancara dengan pemilik (Rima Hikmawati) guna memperoleh informasi 
+terkait riwayat pembangunan, biaya renovasi, dan data pendapatan usaha; 
+­ Pengumpulan data pembanding properti dari kawasan sejenis di Komplek 
+Bumi Parahyangan Kencana dan sekitar pusat Soreang; 
+­ Analisis pasar menggunakan pendekatan perbandingan ( market approach) 
+untuk menilai kesesuaian harga. 
+Dengan mempertimbangkan tujuan penugasan, tingkat kedalaman investigasi 
+dinilai memadai untuk menghasilkan estimasi nilai pasar yang wajar dan kredibel, 
+sesuai standar praktik penilaian yang diatur dalam Standar Penilaian Indonesia (SPI). 
+1.10. Sifat dan Sumber Informasi yang Dapat Diandalkan 
+Dalam melaksanakan penilaian atas objek properti Warung Seblak Wa Rima, 
+penilai menggunakan berbagai sumber informasi yang dianggap relevan, akurat, dan 
+dapat diandalkan. Sumber -sumber informasi tersebut terdiri atas data primer dan 
+sekunder sebagai berikut: 
+Tabel 4. Identifikasi Sumber Informasi 
+No Jenis Informasi Sumber Data Sifat Informasi 
+1 Data fisik properti 
+(tanah & bangunan) 
+Hasil survei dan inspeksi lapangan oleh 
+penilai Primer 
+2 Data legalitas tanah dan 
+bangunan 
+Salinan sertifikat milik pemilik (Rima 
+Hikmawati) 
+Rahasia / 
+Dokumen resmi 
+pribadi 
+3 Data lokasi, batas, dan 
+kondisi lingkungan 
+Observasi lapangan dan data sekunder 
+RTRW Kabupaten Bandung Publik 
+ 
+IHSAN V ALUATION SERVICE 
+  
+  
+ KANTOR JASA PENILAI PUBLIK 
+  
+Jl. Sariasih II No. 50B, Kota Bandung, Jawa Barat 
+  
+Email: Ihsanvaluation@gmail.com 
+  
+No Jenis Informasi Sumber Data Sifat Informasi 
+4 Data harga pasar 
+properti pembanding 
+Wawancara dengan agen properti, 
+masyarakat setempat, dan data transaksi 
+di Komplek Bumi Parahyangan Kencana 
+Sekunder – 
+terbuka 
+5 Data ekonomi dan 
+sosial wilayah 
+Badan Pusat Statistik (BPS) Kabupaten 
+Bandung dan situs resmi Pemkab 
+Bandung 
+Publik / 
+Sekunder 
+6 
+Data pendapatan usaha 
+dan biaya operasional 
+warung 
+Wawancara langsung dengan pemilik 
+usaha (Rima Hikmawati) 
+Rahasia / 
+Primer 
+ 
+1.11. Konfirmasi Bahwa Penilaian Dilakukan Berdasarkan SPI 
+Penilaian ini telah dilakukan dan dilaksanakan dengan berpedoman kepada 
+Standar Penilaian Indonesia (SPI) dan Kode Etik Penilai Indonesia (KEPI) yang 
+dikeluarkan oleh Masyarakat Profesi Penilai Indonesia (MAPPI). 
+Kabupaten Bandung, Desember 2025 
+   
+Pemberi Tugas 
+ 
+ 
+ 
+ 
+Rima Hikmawati 
+ 
+Penilai 
+ 
+ 
+ 
+ 
+Muhammad Ihsan Fadillah 
+ 
+ 
+
+ 
+IHSAN V ALUATION SERVICE 
+  
+  
+ KANTOR JASA PENILAI PUBLIK 
+  
+Jl. Sariasih II No. 50B, Kota Bandung, Jawa Barat 
+  
+Email: Ihsanvaluation@gmail.com 
+  
+  
+
+ 
+IHSAN V ALUATION SERVICE 
+  
+  
+ KANTOR JASA PENILAI PUBLIK 
+  
+Jl. Sariasih II No. 50B, Kota Bandung, Jawa Barat 
+  
+Email: Ihsanvaluation@gmail.com 
+  
+BAGIAN II 
+FORMULIR INSPEKSI 
+2.1. Hasil Inspeksi Lapangan 
+Pada inspeksi lapangan penilaian properti akan dibahas terkait elemen - elemen 
+yang ada pada formulir inspeksi properti. Berikut akan dijelaskan mengenai data umum 
+inspeksi penilaian, data lingkungan, data properti, data tanah, data bangunan, sarana 
+pelengkap, dan data pembanding. 
+2.1.1 Data Lingkungan 
+Tabel 5. Data Lingkungan 
+Karakteristik: 
+Lokasi  : Kabupaten Bandung, Kec. Soreang 
+Kepadatan Pengembangan : Sedang 
+Pertumbuhan : Cepat 
+Infrastruktur : 1. Jalan utama, Jaringan Air Bersih PDAM,  
+2. Jaringan Listrik PLN,  
+3. Jaringan Air Kotor dapur & wc,  
+4. Transportasi umum  
+­ Angkot,  
+­ Ojek,  
+­ Bus.  
+5. Sekolah  
+­ SMAN 1 SOREANG,  
+­ SMKN 1 SOREANG,  
+­ SMK Plus Merdeka Soreang,  
+­ MI YUPPI,  
+­ MTs YUPPI,  
+­ MA YUPPI. 
+6. RSUD OTTO ISKANDAR DINATA,  
+7. Pasar (Pasar Soreang, Pasar Ikan Modern),  
+8. Masjid,  
+9. Polres Bandung,  
+10. Pemadam Kebakaran,  
+11. Taman Kota Soreang. 
+Isu Lingkungan : Air 
+ 
+IHSAN V ALUATION SERVICE 
+  
+  
+ KANTOR JASA PENILAI PUBLIK 
+  
+Jl. Sariasih II No. 50B, Kota Bandung, Jawa Barat 
+  
+Email: Ihsanvaluation@gmail.com 
+  
+Analisis Risiko : Tidak Terdapat Risiko 
+2.1.2 Data Properti 
+Tabel 6. Data Properti 
+Alamat Properti : Desa Sindang Wargi RT 01 RW 22 No. 89 
+Kode Pos : 40911 
+Tipe Properti : Real Property 
+Aksesibilitas  Aksesibel/Baik 
+Data Jalan di Depan Properti 
+Jumlah jalur  2 Arah 
+Lebar jalan  4 Meter 
+Jumlah lajur  1 Lajur 
+Material Jalan  Aspal 
+Drainase  Tersedia 
+Penerangan  Tidak ada penerangan 
+Kondisi jalan  Baik 
+Intensitas  Tinggi 
+Status Hunian  Dihuni 
+Peruntukan Eksisting  Hunian dan tempat usaha warung 
+Parameter Pengembangan 
+Eksisting 
+  
+Batas-batas 
+ Utara Rumah 
+ Timur Rumah 
+ Selatan Jalan 
+ Barat Jalan & Sawah 
+Sarana Transportasi  Angkot, Ojek, Bus 
+Bangunan Petunjuk  Polres Bandung & Gedung My&Me 
+Fasilitas  Listrik, Air Bersih, Gas 
+2.1.3 Data Tanah 
+Tabel 7. Data Tanah 
+Hak Tanah  Hak Milik 
+No. Sertifikat  Pemilik Memilih Tidak Memberi Informasi 
+Status Sertifikat  Pemecahan 
+Tanggal Sertifikat  - 
+Nama Pemegang Hak  Rima Hikmawati 
+Wilayah  - 
+ 
+IHSAN V ALUATION SERVICE 
+  
+  
+ KANTOR JASA PENILAI PUBLIK 
+  
+Jl. Sariasih II No. 50B, Kota Bandung, Jawa Barat 
+  
+Email: Ihsanvaluation@gmail.com 
+  
+Tanggal Dikeluarkan  - 
+Tanggal Jatuh Tempo  - 
+Nomor Gambar Situasi  - 
+Luas  273 m2 
+Bentuk Tanah  Trapesium 
+Elevasi  687 meter diatas permukaan laut 
+Peraturan Perencanaan Kota  KDB 
+Pemenuhan Terhadap 
+Peraturan Tata Kota 
+ Legal nonconforming 
+2.1.4 Data Bangunan 
+Tabel 8. Data Bangunan 
+No. Izin Mendirikan 
+Bangunan 
+ Tidak Ada 
+Dibangun Tahun  2004 
+Renovasi Terakhir  2017 
+Umur Efektif  20 Tahun 
+Luas Bangunan Sesuai Fisik  56 m2 
+Kondisi Bangunan  Baik 
+Luas Tapak Terbangun  56 m2 
+Dihuni Tahun  2004 
+Jenis Bangunan  Permanen 
+Penggunaan Saat Ini  Hunian & Usaha Warung 
+Struktur Bangunan 
+Konstruksi Bangunan  Bata dan Beton 
+Jumlah Lantai  1 Lantai 
+Pondasi  Cakar Ayam 
+Konstruksi Atap  Kayu 
+Material 
+Dinding  Bata Merah Plester 
+Partisi  Triplek 
+Lantai  Keramik 
+Pintu  Kayu 
+Langit-langit  Triplek 
+Penutup Atap  Genteng Tanah Liat 
+ 
+IHSAN V ALUATION SERVICE 
+  
+  
+ KANTOR JASA PENILAI PUBLIK 
+  
+Jl. Sariasih II No. 50B, Kota Bandung, Jawa Barat 
+  
+Email: Ihsanvaluation@gmail.com 
+  
+2.1.5 Data Pembanding 
+Tabel 9. Data Pembanding 
+Data Pembanding 1 
+Jenis Properti  
+Rumah Tinggal 
+ 
+ 
+Gambar 1 Tampak Depan Rumah Objek Pembanding 1 
+Alamat  Komplek Bumi Parahyangan Kencana Jl. Murai Blok A 
+No. 29 
+Luas Tanah  104 m2 
+Dokumen Tanah  SHM 
+Luas Bangunan  80 m2 
+Konstruksi Bangunan  Cakar Ayam 
+Tahun dibangun  2000 
+Kondisi Bangunan  Baik 
+Elevasi  699,8 meter diatas permukaan laut 
+Lebar Jalan  5 meter 
+Kondisi Lingkungan  Baik 
+Jarak ke Properti Subyek  2 Kilometer 
+Harga Penawaran  350 Juta 
+Syarat Pembayaran  Tunai, Bertahap 
+Pengeluaran Tertunda  Tidak Ada 
+Kondisi Penawaran/Transaksi  Normal 
+Sumber Data  Pak Fajar 
+Nomor Telepon  082313699126 
+
+ 
+IHSAN V ALUATION SERVICE 
+  
+  
+ KANTOR JASA PENILAI PUBLIK 
+  
+Jl. Sariasih II No. 50B, Kota Bandung, Jawa Barat 
+  
+Email: Ihsanvaluation@gmail.com 
+  
+ 
+Data Pembanding 2 
+Jenis Properti  
+Rumah Tinggal 
+ 
+ 
+Gambar 2 Tampak Depan Rumah Objek Pembanding 2 
+Alamat  Komplek Bumi Parahyangan Kencana Jl. Murai Blok A 
+No. 25 
+Luas Tanah  94 m2 
+Dokumen Tanah  SHM 
+Luas Bangunan  35 m2 
+Konstruksi Bangunan  Cakar Ayam 
+Tahun dibangun  2003 
+Kondisi Bangunan  Baik 
+Elevasi  699,8 meter diatas permukaan laut 
+Lebar Jalan  7 meter 
+Kondisi Lingkungan  Baik 
+Jarak ke Properti Subyek  2,1 Kilometer 
+Harga Penawaran  250 Juta 
+Syarat Pembayaran  Tunai, Bertahap 
+Pengeluaran Tertunda  Tidak Ada 
+Kondisi Penawaran/Transaksi  Normal 
+Sumber Data  Pak Fajar 
+Nomor Telepon  082313699126 
+ 
+
+ 
+IHSAN V ALUATION SERVICE 
+  
+  
+ KANTOR JASA PENILAI PUBLIK 
+  
+Jl. Sariasih II No. 50B, Kota Bandung, Jawa Barat 
+  
+Email: Ihsanvaluation@gmail.com 
+  
+Data Pembanding 3 
+Jenis Properti  
+Rumah Tinggal 
+ 
+ 
+Gambar 3 Tampak Depan Rumah Objek Pembanding 3 
+Alamat  Komplek Bumi Parahyangan Kencana Jl. Caladi Blok B14 
+No. 21 
+Luas Tanah  147 m2 
+Dokumen Tanah  SHM 
+Luas Bangunan  50 m2 
+Konstruksi Bangunan  Cakar Ayam 
+Tahun dibangun  2005 
+Kondisi Bangunan  Baik 
+Elevasi  696 meter diatas permukaan laut 
+Lebar Jalan  8 meter 
+Kondisi Lingkungan  Baik 
+Jarak ke Properti Subyek  2,3 Kilometer 
+Komponen non-realty  - 
+Harga Penawaran  380 Juta 
+Syarat Pembayaran  Tunai, Bertahap 
+Pengeluaran Tertunda  Tidak Ada 
+Kondisi 
+Penawaran/Transaksi  Normal 
+Sumber Data  Pak Fajar 
+Nomor Telepon  082313699126 
+ 
+
+ 
+IHSAN V ALUATION SERVICE 
+  
+  
+ KANTOR JASA PENILAI PUBLIK 
+  
+Jl. Sariasih II No. 50B, Kota Bandung, Jawa Barat 
+  
+Email: Ihsanvaluation@gmail.com 
+  
+  
+
+ 
+IHSAN V ALUATION SERVICE 
+  
+  
+ KANTOR JASA PENILAI PUBLIK 
+  
+Jl. Sariasih II No. 50B, Kota Bandung, Jawa Barat 
+  
+Email: Ihsanvaluation@gmail.com 
+  
+BAGIAN III 
+PENDEKATAN PENILAIAN 
+ 
+3.1. Pendekatan Penilaian 
+Sesuai dengan SPI 106, penerapan pendekatan dan metode penilaian merupakan 
+tahapan yang harus dilewati penilai sebelum kesimpulan dan opini nilai dihasilkan. 
+Pemilihan pendekatan penilaian yang sesuai sangat bergantung pada pertimbangan 
+seperti tujuan dan dasar nilai yang ditetapkan, ketersediaan informasi dan data masukan 
+penilai, serta metode atau teknik yang diterapkan oleh pelaku pasar yang rele van. 
+Tujuan pemilihan pendekatan dan metode penilaian untuk aset adalah mendapatkan 
+metode yang paling sesuai dalam keadaan tertentu, dan tidak ada satu metode khusus 
+yang sesuai di setiap situasi yang ada. Untuk mengestimasi nilai properti, terdapat tiga 
+macam metode pendekatan dalam penilaian, di antaranya: 
+1. Pendekatan Data Pasar (Market Approach) 
+Metode penilaian suatu properti yang diperoleh dengan membandingkan properti 
+yang dinilai terhadap properti lain yang sebanding untuk memprakirakan nilai pasar 
+dari suatu properti berdasarkan harga jual properti lain yang ditransaksikan di pasar 
+terbuka. 
+2. Pendekatan Biaya (Cost Approach) 
+Pendekatan penilaian yang menggunakan biaya reproduksi atau biaya pengganti 
+(RCN) sebagai dasar untuk mengestimasi nilai objek penilaian. 
+3. Pendekatan Pendapatan (Income Approach) 
+Pendekatan penilaian properti yang dihitung berdasarkan proyeksi jumlah 
+pendapatan bersih yang wajar (sesuai pasar) yang diharapkan dapat dihasilkan oleh 
+properti tersebut sepanjang umur ekonomis yang masih tersisa. 
+  
+ 
+IHSAN V ALUATION SERVICE 
+  
+  
+ KANTOR JASA PENILAI PUBLIK 
+  
+Jl. Sariasih II No. 50B, Kota Bandung, Jawa Barat 
+  
+Email: Ihsanvaluation@gmail.com 
+  
+3.1.1 Pendekatan Data Pasar 
+Pendekatan penilaian pertama yang digunakan dalam penilaian Rumah Tinggal 
+& Warung Seblak Wa Rima sebagai objek penilaian (OP) ini dilakukan dengan cara 
+membandingkan antara properti objek pen ilaian (OP) dengan pembanding yang 
+memiliki karakteristik sejenis, atau paling tidak harus sebanding. 
+Tabel 10. Tabel Data Pembanding Objek Penilaian 
+No. Data 
+Objek 
+Penilaian 
+Pembanding 1 Pembanding 2 Pembanding 3 
+ 
+1. Jenis 
+Properti 
+Rumah 
+Warung Seblak 
+Wa Rima 
+ 
+Rumah Tinggal 
+ 
+Rumah Tinggal 
+ 
+Rumah Tinggal 
+2. Luas Tanah 273 m2 104 m2 94 m2 147 m2 
+3. 
+Luas 
+Bangunan 
+56 m2 80 m2 35 m2 50 m2 
+4. Lebar Jalan 4 meter 5 meter 7 meter 8 meter 
+5. 
+Dokumen 
+Tanah 
+SHM SHM SHM SHM 
+6. Topografi Datar Datar Datar Datar 
+7. Kondisi 
+Penawaran  Normal Normal Normal 
+8. Syarat 
+Pembayaran  Tunai/Bertahap Tunai/Bertahap Tunai/Bertahap 
+9. Posisi Tanah Standar Standar Standar Huk 
+ 
+  
+ 
+IHSAN V ALUATION SERVICE 
+  
+  
+ KANTOR JASA PENILAI PUBLIK 
+  
+Jl. Sariasih II No. 50B, Kota Bandung, Jawa Barat 
+  
+Email: Ihsanvaluation@gmail.com 
+  
+Pendekatan pasar ini memerlukan beberapa penyesuaian yakni beberapa aspek 
+pada objek pembanding yang berbeda dengan objek penilaian baik dilihat  dari lokasi, 
+luas tanah, bentuk tanah, topografi, posisi tanah hingga dokumen  tanah yang dapat 
+dilihat dari tabel diatas perbedaannya. Selanjutnya berikut ini merupakan kertas kerja 
+(work sheet ) untuk perhitungan pendekatan pasar yang dilakukan oleh penilai atas 
+objek penilaian Warung Seblak Wa Rima. 
+Tabel 11. Perhitungan Nilai Pasar Tanah 
+ 
+Berdasarkan hasil perhitungan penilaian bangunan Rumah dengan menggunakan 
+pendekatan data pasar, hasil dari nilai pasar dari tanah Warung Seblak Wa Rima sebesar 
+Rp430.212.467.  
+Keterangan Objek Penilaian Data Pembanding 1 Data pembanding 2 Data Pembanding 3
+Jenis Property Rumah Tinggal Rumah Tinggal Rumah Tinggal Rumah Tinggal
+Luas Tanah (m2) 273 104 94 147
+Luas Bangunan (m2) 56 80 35 50
+Bentuk Tanah Trapesium Persegi Panjang (-) Persegi Panjang (-) Persegi (-)
+Topografi Datar Datar Datar Datar
+Lebar Jalan (m) 4 5 (-) 7 (-) 8 (-)
+Posisi Tanah Standar Standar Standar Huk (-)
+Dokumen Tanah SHM SHM SHM SHM
+Penawaran Properti (rp) Rp350,000,000.00 Rp250,000,000.00 Rp380,000,000.00
+Indikasi Harga Transaksi (rp) Rp297,500,000.00 Rp212,500,000.00 Rp323,000,000.00
+Biaya Reproduksi Bangunan (rp/m2) Rp2,930,000.00 Rp2,930,000.00 Rp2,930,000.00
+Total penyusutan bangunan 83.33% 73.33% 66.67%
+Nilai pasar bangunan (rp/m2) Rp488,333.33 Rp781,333.33 Rp976,666.67
+Nilai Bangunan (rp) - dari pendekatan biaya kalkulasi Rp39,066,666.67 Rp27,346,666.67 Rp48,833,333.33
+indikasi harga tanah (rp/m2) Rp2,484,935.90 Rp1,969,716.31 Rp1,865,079.37
+Penyesuaian
+Waktu
+Lokasi Semua (-) Rp400,000.00 Rp400,000.00 Rp400,000.00
+Luas Tanah Semua (-) Rp59,150.00 Rp62,650.00 Rp44,100.00
+Bentuk Tanah Semua (-) Rp50,000.00 Rp50,000.00 Rp50,000.00
+Topografi Rp0.00 Rp0.00 Rp0.00
+Posisi Tanah Semua (-) Rp0.00 Rp0.00 Rp100,000.00
+Dokumen Tanah Rp0.00 Rp0.00 Rp0.00
+Total Penyesuaian Semua (-) Rp509,150.00 Rp512,650.00 Rp594,100.00
+Harga Setelah Penyesuaian (indikasi harga property yang dinilai) Rp1,975,785.90 Rp1,457,066.31 Rp1,270,979.37
+Bobot rekonsiliasi 34.25% 34.14% 31.62%
+bobot x harga setelah penyesuaian Rp676,620.16 Rp497,403.43 Rp401,846.25
+Nilai pasar /m2 Rp1,575,869.85
+Nilai Pasar Tanah Aset Rp430,212,467.76
+Rumah Warung Seblak Warima
+ 
+IHSAN V ALUATION SERVICE 
+  
+  
+ KANTOR JASA PENILAI PUBLIK 
+  
+Jl. Sariasih II No. 50B, Kota Bandung, Jawa Barat 
+  
+Email: Ihsanvaluation@gmail.com 
+  
+Tabel 12. Pembobotan dan Rekonsiliasi 
+ 
+Berdasarkan tabel 12 hasil dari rekonsiliasi nilai objek pembanding sudah 
+memenuhi ketentuan utama yaitu ketika bobot pembanding jika dijumlahkan harus 
+mencapai angka 100%. Hasil perhitungan bobot tiap pembanding diantaranya:  
+1) Pembanding 1 sebesar 34,25%  
+2) Pembanding 2 sebesar 34,14%  
+3) Pembanding 3 sebesar 31,62%  
+3.1.2 Pendekatan Biaya 
+Sebuah pendekatan yang mendasarkan nilai properti pada biaya pembuatan baru 
+atau biaya penggantian baru setelah dikurangi dengan tingkat penyusutan yang sesuai. 
+Menurut SPI 106, pendekatan biaya merupakan metode yang memberikan indikasi 
+nilai menggunakan data berupa prinsip ekonomi yang menyatakan bahwa pembeli akan 
+membayar aset yang tidak lebih dari biaya mendapatkan aset dengan utilitas yang sama, 
+baik itu melalui pembelian atau pembuatan konstruksi baru dengan meng ecualikan 
+beberapa faktor, seperti waktu yang tidak wajar, ketidaknyamanan, risiko, atau faktor 
+lainnya.  
+Pendekatan biaya dapat dilakukan dengan cara mencari informasi biaya 
+pembangunan baru saat ini yang disesuaikan dengan lokasi keberadaan objek penilaian. 
+Dalam penilaian ini menggunakan metode survey kuantitas ( quantity survey method) 
+yang menghitung biaya dengan acuan pada daftar kuantitas dan spesifikasi yang berisi 
+semua jenis pekerjaan secara terperinci dan seluruh komponen bangunan yang harus 
+dikerjakan pada obyek bangunan tersebut dihitung secara terperinci per item aktivitas. 
+Berikut merupakan tabel 13 perhitungan pendekatan biaya. 
+Keterangan D1 D2 D3 Jumlah
+Total Penyesuaian Rp509,150.00 Rp512,650.00 Rp594,100.00 Rp1,615,900.00
+% Perbedaan 31.51% 31.73% 36.77% 100.00%
+% Persamaan 68.49% 68.27% 63.23% 200.00%
+% Rekonsiliasi 34.25% 34.14% 31.62% 100.00%
+Total Bobot Rekonsiliasi
+ 
+IHSAN V ALUATION SERVICE 
+  
+  
+ KANTOR JASA PENILAI PUBLIK 
+  
+Jl. Sariasih II No. 50B, Kota Bandung, Jawa Barat 
+  
+Email: Ihsanvaluation@gmail.com 
+  
+Tabel 13. Perhitungan Nilai Bangunan Baru (RCN) 
+JENIS : Luas 
+Bangunan 64 m2 Jumlah 
+Lantai 1 lantai Indeks Jml 
+Lantai 0.92
+LOKASI PENILAIAN
+789,298.00Rp       
+1,441,764.00Rp    
+365,479.00Rp       
+-Rp                    
+175,256.00Rp       
+-Rp                    
+224,049.00Rp       
+-Rp                    
+-Rp                    
+656,353.10Rp       
+34,544.90Rp         
+-Rp                    
+-Rp                    
+-Rp                    
+-Rp                    
+227,433.00Rp       
+174,871.20Rp       
+15,688.00Rp         
+-Rp                    
+364,710.00Rp       
+-Rp                    
+-Rp                    
+243,851.00Rp       
+4,713,297.20Rp    
+4,571,898.28Rp    
+4,194,259.49Rp    
+526,340.07Rp                              
+5,310,000.00Rp                           
+339,840,000.00Rp                       
+ TOTAL BIAYA LANGSUNG DAN BIAYA TAK LANGSUNG 
+TOTAL BRB (A+B) (Rp/m2)
+PPn 11%
+TOTAL BRB Include PPn (Rp/m2)
+TOTAL BRB Include PPn (Rp)
+Total Biaya Langsung Adjusment IKK & Indeks Lantai (A)
+100.0%
+100.0%
+Adjusment Lain 
+100.0%
+100.0%
+100.0%
+Genteng Tanah Liat
+GRC
+Biaya Unit Terpasang
+Tapak Beton dan 
+Beton Bertulang
+Kayu (Atap 
+Pondasi
+Struktur
+Elemen Bangunan
+    Rangka Atap
+    Penutup Atap
+    Plafond
+    Dinding
+    Pintu & 
+Jendela
+    Lantai
+Utilitas
+BRB SPESIFIKASI OBJEK YANG DINILAI
+224,049.00Rp           
+175,256.00Rp           
+365,479.00Rp           
+1,441,764.00Rp        
+789,298.00Rp           
+Meja dapur, sink, 
+sanitair Amstad, 
+Keramik 
+Pintu Kayu Panil 
+(include kusen) 
+Jendela Kaca Rk 
+Kayu (include 
+kusen) 
+Pintu KM UPVC
+Dilapis cat 
+Keramik Dinding 
+KM/WC
+243,851.00Rp           
+364,710.00Rp           
+454,866.00Rp           
+437,178.00Rp           
+156,880.00Rp           
+690,898.00Rp           
+1,602,787.00Rp        
+100.0%
+100.0%
+50%
+40%
+10%
+95.0%
+5%
+                     1.00 
+1.00                    
+1.00                    
+1.00                    
+1.00                    
+1.00                    
+1.00                    
+1.00                    
+1.00                    
+1.00                    
+1.00                    
+1.00                    
+1.00                    
+KABUPATEN / KOTA Kabupaten Bandung 0.97
+NAMA BANGUNAN  : Warung Seblak Warima
+WORKSHEET PENILAIAN-BTB 2025
+PETUNJUK : ISILAH / INPUTLAH DATA DI CELL BERHURUF BIRU DENGAN BACKGROUND KUNING
+Rumah Menengah
+PROVINSI JAWA BARAT INDEKS KEMAHALAN KONSTRUKSI
+Spesifikasi Material 
+Objek yang Dinilai Volume (%) Hasil Perhitungan 
+Biaya Langsung
+5,282,000.00Rp                      
+338,048,000.00Rp                  
+480,242.71Rp                         
+4,802,427.11Rp                      
+ OBJEK YANG DINILAI  MODEL ACUAN 
+4,784,909.72Rp                           
+Total Biaya Langsung
+Total Biaya Langsung Adjusment IKK
+ 
+IHSAN V ALUATION SERVICE 
+  
+  
+ KANTOR JASA PENILAI PUBLIK 
+  
+Jl. Sariasih II No. 50B, Kota Bandung, Jawa Barat 
+  
+Email: Ihsanvaluation@gmail.com 
+  
+Berdasarkan tabel 13 hasil perhitungan penilaian bangunan Rumah dengan 
+menggunakan pendekatan biaya dengan metode survey kuantitas, hasil dari nilai biaya 
+reproduksi baru bangunan Warung Seblak Wa Rima sebesar Rp338,048,000. 
+Sebagai catatan, Penilai menggunakan nilai RCN ini sebagai indikasi nilai 
+bangunan karena adanya renovasi besar pada tahun 2017 yang dianggap membuat 
+kondisi fisik bangunan kembali prima mendekati baru, sehingga penyusutan dianggap 
+sangat minim dan tidak material untuk diperhitungkan dalam konteks ini. 
+3.1.3 Pendekatan Pendapatan 
+Pendekatan penilaian ketiga, yakni pendekatan pendapatan. Pendekatan ini 
+memperhitungkan tingkat kapitalisasi properti OP karena properti tersebut 
+menghasilkan pendapatan yang bersumber dari wirausaha toko. Metode pendekatan 
+pendapatan yang digunakan dalam  penilaian properti OP, yakni metode kapitalisasi 
+(metode umur hidup). Adapun teknik yang digunakan dalam penilaian, yakni teknik 
+penyisaan bangunan yang menghasilkan keluaran (output) berupa nilai properti. 
+Terdapat beberapa asumsi yang digunakan dalam perhitungan pendekatan pendapatan 
+terhadap Rumah dan Warung Seblak Wa Rima sebagai OP, di antaranya: 
+1. Pendapatan Kotor (Potential Gross Income) 
+Potensi pendapatan kotor pada objek penilaian ini yakni pendapatan yang 
+diperoleh sebelum dikurangi apa pun. Dari wawancara pemilik Rumah & Warung 
+Seblak Wa Rima didapatkan hasil pendapatan kotor yakni Rp. 15.000 x 25 
+Mangkok/Hari x 30 Hari/Bulan atau sekitar Rp. 11.250.000 per bulannya. 
+2. Kerugian Sewa 
+Kerugian pada objek penilaian yakni, kerugian akibat tutupnya toko. Asumsi 
+untuk tutupnya objek penilaian adalah pada saat libur nasional ditambah dengan 
+pengajian setiap hari kamis secara rutin, yaitu sekitar 16 + (4 x 12) hari dalam  1 
+ 
+IHSAN V ALUATION SERVICE 
+  
+  
+ KANTOR JASA PENILAI PUBLIK 
+  
+Jl. Sariasih II No. 50B, Kota Bandung, Jawa Barat 
+  
+Email: Ihsanvaluation@gmail.com 
+  
+tahun, sehingga diperoleh persentase 17,77% (Keterangan: diperoleh dari 64/360 
+× 100%). 
+3. Pendapatan Kotor Efektif (Effective Gross Income) 
+Pendapatan kotor efektif merupakan hasil pengurangan antara potensi 
+pendapatan kotor dengan kerugian sewa yang dialami oleh objek penilaian. 
+a) Pendapatan Kotor per Tahun (Potensi Pendapatan Kotor/PGI) 
+­ Pendapatan per Mangkok Seblak : Rp15.000 
+­ V olume Penjualan per Hari : 25 mangkok 
+­ Operasional per Bulan : 30 hari 
+Rumus PGI per Bulan: 
+PGI per Bulan = Harga per Mangkok x Volume per Hari x Jumlah Hari 
+Operasional per Bulan = Rp 15.000 x 25 x 30 
+= Rp 11.250.000 
+Rumus PGI per Tahun: 
+PGI per Tahun = PGI per Bulan x 12 
+PGI per Tahun = Rp 11.250.000 x 12 
+= 135.000.000 
+b) Kerugian Sewa (Kekosongan dan Kerugian Koleksi) Properti tutup karena: 
+­ Libur Nasional : 16 hari/tahun 
+­ Pengajian Rutin (Setiap Kamis) : 4 hari/bulan × 12 bulan = 48 hari/tahun 
+­ Total Hari Tutup : 16 + 48 = 64 hari/tahun 
+Persentase Kerugian Sewa: 
+64 : 360 𝑥 100% = 17,77% 
+ 
+IHSAN V ALUATION SERVICE 
+  
+  
+ KANTOR JASA PENILAI PUBLIK 
+  
+Jl. Sariasih II No. 50B, Kota Bandung, Jawa Barat 
+  
+Email: Ihsanvaluation@gmail.com 
+  
+Kerugian Nominal Sewa: 
+17,77% x Rp 135.000.000 = 24.000.000 
+c) Pendapatan Kotor Efektif (EGI) 
+Tabel 14. Pendapatan Kotor Efektif 
+Komponen Per Tahun (Rp) Per Bulan (Rp) 
+Pendapatan Kotor (PGI) 135.000.000 11.250.000 
+Kerugian Sewa 17,77% (24.000.000) (2.000.000) 
+Pendapatan Kotor Efektif 
+(EGI) 
+111.000.000 9.250.000 
+ 
+4. Biaya Operasional 
+Biaya operasional pada objek properti dihitung berdasarkan biaya -biaya yang 
+dikeluarkan oleh pemilik objek penilaian untuk menunjang operasional Rumah 
+dan Warung Seblak Wa Rima. Dalam kasus ini, biaya operasional dihitung dari 
+biaya listrik, biaya air, dan biaya operasional berupa gas LPG. Berikut merupakan 
+penjelasan perhitungan biaya. 
+­ Bahan baku : 50% dari harga jual 
+50% × Rp 9.250.000 = Rp 4.625.000 
+­ Listrik (1100 watt): Rp200.000 
+­ Air PDAM: Rp100.000 
+­ Subsidi Gas LPG (3 kg, dibebankan 4 tabung per bulan x Rp20.000) : 
+Rp80.000 
+­ Total biaya operasional per bulan: 
+Rp 4.625.000 + Rp 200.000 + Rp 100.000 + Rp 80.000 
+= Rp 5.005.000 
+ 
+IHSAN V ALUATION SERVICE 
+  
+  
+ KANTOR JASA PENILAI PUBLIK 
+  
+Jl. Sariasih II No. 50B, Kota Bandung, Jawa Barat 
+  
+Email: Ihsanvaluation@gmail.com 
+  
+5. Pendapatan Bersih Operasional (NOI) 
+Pendapatan Bersih Operasional (NOI) merupakan hasil akhir dari pendekatan 
+pendapatan dalam penilaian properti, yang diperoleh dengan mengurangkan 
+seluruh biaya operasional dari Pendapatan Kotor Efektif (EGI). Konsep ini 
+mencerminkan keuntungan riil yang dihasilkan properti sebelum dikenakan 
+pajak dan pembiayaan. 
+Perhitungan: 
+- EGI per bulan = Rp 9.250.000 
+- Biaya operasional per bulan = Rp 5.005.000 
+NOI per bulan = EGI – Biaya Operasional 
+= Rp 9.250.000 – Rp 5.005.000 
+= Rp 4.245.000 
+Tabel 15. Ringkasan Perhitungan Pendapatan Bersih Operasional (NOI) 
+Komponen Per Tahun (Rp) Per Bulan (Rp) 
+Pendapatan Kotor Efektif 
+(PGI) 
+111.000.000 9.250.000 
+Biaya Operasional (60.060.000) (5.005.000) 
+Pendapatan Bersih 
+Operasional (NOI) 
+50.940.000 4.245.000 
+  
+6. Perhitungan Nilai Properti Warung Seblak Wa Rima 
+Berdasarkan pendekatan pendapatan dengan metode kapitalisasi, nilai properti 
+dapat diestimasi dengan mempertimbangkan pendapatan bersih operasional 
+(NOI) dan tingkat kapitalisasi yang sesuai. Untuk properti ini, digunakan cap rate 
+yang merupakan tingkat pengembalian standar untuk usaha kuliner skala kecil 
+ 
+IHSAN V ALUATION SERVICE 
+  
+  
+ KANTOR JASA PENILAI PUBLIK 
+  
+Jl. Sariasih II No. 50B, Kota Bandung, Jawa Barat 
+  
+Email: Ihsanvaluation@gmail.com 
+  
+dengan risiko moderat. Cap rate  ini mencerminkan ekspektasi pasar terhadap 
+properti sejenis di lokasi dengan karakteristik serupa. 
+Perhitungan Nilai Properti (Capitalization Approach): 
+­ Pendapatan Bersih Operasional (NOI) = Rp50.940.000/tahun 
+­ Nilai RCN = 338.048.000 
+­ Nilai Tanah = 430.212.457 
+­ Tingkat Pengembalian Tahunan 
+Tingkat Pengembalian Tahunan = 100% : Sisa Umur Ekonomis 
+= 100% : 20 tahun = 0,05 atau 5% 
+­ BI Rate = 4,75% 
+­ Tingkat Kapitalisasi 
+Tingkat Kapitalisasi = Tingkat Pengembalian Tahunan + BI Rate 
+= 5% + 4,75% = 9,75% 
+  
+ 
+IHSAN V ALUATION SERVICE 
+  
+  
+ KANTOR JASA PENILAI PUBLIK 
+  
+Jl. Sariasih II No. 50B, Kota Bandung, Jawa Barat 
+  
+Email: Ihsanvaluation@gmail.com 
+  
+Tabel 16. Perhitungan Pendekatan Pendapatan 
+ 
+Berdasarkan hasil perhitungan di atas diketahui hasil akhir penilaian properti 
+Warung Seblak Wa Rima menggunakan pendekatan pendapatan dengan tingkat 
+kapitalisasi (cap rate) 9,75% menunjukkan nilai properti sebesar Rp743.083.311. 
+(tujuh ratus empat puluh tiga juta , delapan puluh tiga ribu, tiga ratus sebelas 
+rupiah). Perhitungan ini didasarkan pada pendapatan bersih operasional (NOI) 
+tahunan sebesar Rp5 0.940.000 yang diperoleh dari pendapatan kotor efektif 
+(EGI) Rp111.000.000 dikurangi total biaya operasional tahunan Rp60. 060.000. 
+Cap rate 9,75% ini mencerminkan tingkat pengembalian yang wajar unt uk 
+properti usaha kuliner dengan risiko moderat di lokasi tersebut, dimana biaya 
+operasional telah mencakup seluruh komponen utama termasuk bahan baku 
+(50% dari EGI), listrik, air, dan gas LPG. 
+  
+a Potensi Pendapatan Kotor / Bulan 11,250,000.00Rp          
+b Potensi Pendapatan Kotor / Tahun 135,000,000.00Rp        
+c Loss Of Vacancy 24,000,000.00Rp          
+111,000,000.00Rp  
+a Biaya Operasional / Tahun
+Bahan Baku 4,625,000.00Rp            
+Listrik (1100 watt) 200,000.00Rp               
+Air PDAM 100,000.00Rp               
+Gas LPG 3 KG 80,000.00Rp                 
+60,060,000.00Rp    
+50,940,000.00Rp    
+a Pendapatan Bersih / Tahun 50,940,000.00Rp          
+b Nilai Tanah 430,212,457.76Rp        
+c BI Rate 4.75%
+d Pendapatan Tanah 20,435,091.74Rp     
+e Pendapatan Bangunan 30,504,908.26Rp     
+f Tingkat Pengembalian Tahunan 5.00%
+g Tingkat Kapitalisasi 9.75%
+h Nilai Indikasi Bangunan 312,870,853.91Rp   
+743,083,311.67Rp        
+PENDEKATAN PENDAPATAN
+Pendapatan Kotor Efektif
+Total Biaya Operasional / Tahun
+Pendapatan Bersih / Tahun
+Nilai Properti
+ 
+IHSAN V ALUATION SERVICE 
+  
+  
+ KANTOR JASA PENILAI PUBLIK 
+  
+Jl. Sariasih II No. 50B, Kota Bandung, Jawa Barat 
+  
+Email: Ihsanvaluation@gmail.com 
+  
+BAGIAN IV 
+KESIMPULAN 
+ 
+4.1. Kesimpulan 
+Penilaian ini dilakukan dengan objek penilaian properti Warung Seblak Wa Rima 
+dengan total luas lahan seluas 273 m² dan luas bangunan seluas 56 m² yang dilakukan 
+oleh Ihsan Valuation Service dan penilaian dimulai dengan Scope of Work (SOW) yang 
+telah disepakati oleh kedua belah pihak yakni pihak penilai dan pihak pemberi tugas. 
+Selanjutnya dilakukan penilaian dengan tiga pendekatan penilaian diantaranya 
+yaitu pendekatan data pasar, pendekatan biaya dan pendekatan pendapatan. 
+1. Berdasarkan perhitungan pendekatan  pasar dengan dilakukan pembandingan 
+menggunakan tiga objek sejenis yang kemudian dilakukan penyesuaian, 
+diperoleh indikasi nilai pasar  tanah pada objek penilaian adalah sebesar 
+Rp430.212.467. 
+2. Berdasarkan perhitungan pendekatan biaya dengan metode umur ekonomis dan 
+dengan metode survey kuantitas ( quantity survey method ) diperoleh indikasi 
+nilai bangunan baru atau RCN adalah sebesar Rp338,048,000. 
+3. Berdasarkan perhitungan pendekatan pendapatan dengan teknik penyisaan 
+bangunan dan kapitalisasi dengan metode umur hidup diperoleh nilai properti 
+sebesar Rp743.083.311. 
+4.2. Rekonsiliasi Nilai 
+Berdasarkan analisis yang telah dilakukan, Penilai mempertimbangkan dua 
+indikasi nilai sebagai berikut: 
+1. Pendekatan Biaya: Sebesar Rp768.260.4 67 (Penjumlahan Nilai Tanah 
+Rp430.212.467 + Nilai Bangunan Rp338.048.000). 
+2. Pendekatan Pendapatan: Sebesar Rp743.083.311. 
+ 
+IHSAN V ALUATION SERVICE 
+  
+  
+ KANTOR JASA PENILAI PUBLIK 
+  
+Jl. Sariasih II No. 50B, Kota Bandung, Jawa Barat 
+  
+Email: Ihsanvaluation@gmail.com 
+  
+Kedua poin diatas menunjukkan rentang nilai yang rapat dan konsisten (selisih < 
+5%). Hal ini mengindikasikan bahwa potensi pendapatan properti Warung Seblak 
+sudah sepadan dengan biaya investasi fisik tanah dan bangunannya. 
+Dalam penentuan nilai akhir, Penilai memberikan bobot utama pada Pendekatan 
+Pendapatan sebesar Rp743.083.311. Dengan alasan objek penilaian (OP) merupakan 
+properti komersial yang aktif beroperasi, sehingga nilai ekonomis yang dihasilkan 
+dianggap lebih mencerminkan persepsi pembeli di pasar dibandingkan sekadar nilai 
+fisik aset. 
+Berdasarkan pertimbangan diatas, Estimasi Nilai Properti pada tanggal 
+penilaian adalah:  
+Rp743.000.000,- 
+(Tujuh Ratus Empat Puluh Tiga Juta Rupiah) 
+(Nilai dibulatkan) 
+Kami menjamin bahwa penilaian ini dibuat oleh Penilai yang kompeten dan 
+dilakukan dengan penuh kejujuran, bertanggung jawab, dan objektif berdasarkan Kode 
+Etik Penilai Indonesia (KEPI) dan Standar Penilai Indonesia (SPI) yang berlaku, serta 
+peraturan-peraturan yang mendukung proses penilaian properti yang dilakukan.   
+ 
+IHSAN V ALUATION SERVICE 
+  
+  
+ KANTOR JASA PENILAI PUBLIK 
+  
+Jl. Sariasih II No. 50B, Kota Bandung, Jawa Barat 
+  
+Email: Ihsanvaluation@gmail.com 
+  
+Lampiran A Lembar Form Inspeksi 
+ 
+
+ 
+IHSAN V ALUATION SERVICE 
+  
+  
+ KANTOR JASA PENILAI PUBLIK 
+  
+Jl. Sariasih II No. 50B, Kota Bandung, Jawa Barat 
+  
+Email: Ihsanvaluation@gmail.com 
+  
+ 
+
+ 
+IHSAN V ALUATION SERVICE 
+  
+  
+ KANTOR JASA PENILAI PUBLIK 
+  
+Jl. Sariasih II No. 50B, Kota Bandung, Jawa Barat 
+  
+Email: Ihsanvaluation@gmail.com 
+  
+ 
+
+ 
+IHSAN V ALUATION SERVICE 
+  
+  
+ KANTOR JASA PENILAI PUBLIK 
+  
+Jl. Sariasih II No. 50B, Kota Bandung, Jawa Barat 
+  
+Email: Ihsanvaluation@gmail.com 
+  
+ 
+
+ 
+IHSAN V ALUATION SERVICE 
+  
+  
+ KANTOR JASA PENILAI PUBLIK 
+  
+Jl. Sariasih II No. 50B, Kota Bandung, Jawa Barat 
+  
+Email: Ihsanvaluation@gmail.com 
+  
+ 
+Lampiran B Gambar Teknis Warung Seblak Wa Rima 
+ 

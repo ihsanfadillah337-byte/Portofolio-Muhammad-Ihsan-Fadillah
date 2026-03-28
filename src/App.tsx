@@ -14,6 +14,7 @@ import ProjectSnapSpend from "./pages/ProjectSnapSpend";
 import ProjectAsetrace from "./pages/ProjectAsetrace";
 import ProjectDocuTwin from "./pages/ProjectDocuTwin";
 import ProjectSurveySnap from "./pages/ProjectSurveySnap";
+import ProjectCommercialValuation from "./pages/ProjectCommercialValuation";
 
 const queryClient = new QueryClient();
 
@@ -34,6 +35,7 @@ const App = () => (
             <Route path="/project/asetrace" element={<ProjectAsetrace />} />
             <Route path="/project/docutwin" element={<ProjectDocuTwin />} />
             <Route path="/project/surveysnap" element={<ProjectSurveySnap />} />
+            <Route path="/project/commercial-valuation" element={<ProjectCommercialValuation />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
