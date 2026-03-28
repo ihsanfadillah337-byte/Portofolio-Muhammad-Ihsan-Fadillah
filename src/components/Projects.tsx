@@ -142,8 +142,8 @@ export default function Projects() {
       subtitle: t('Kecamatan Soreang, Bandung', 'Soreang District, Bandung'),
       category: 'Consulting',
       description: t(
-        'Overlay spasial, analisis radius fasilitas pendidikan, serta Heat Map kepadatan penduduk menggunakan platform Esri.',
-        'Spatial overlay, educational facility radius analysis, and population density Heat Map using the Esri platform.'
+        'Overlay spasial, analisis radius fasilitas strategis (kesehatan & sekolah), serta Heat Map kepadatan menggunakan platform Esri.',
+        'Spatial overlay, strategic facility radius analysis (health & locational), and Heat Map generation using the Esri platform.'
       ),
       url: heroGISSoreang,
       href: '/project/gis-soreang',

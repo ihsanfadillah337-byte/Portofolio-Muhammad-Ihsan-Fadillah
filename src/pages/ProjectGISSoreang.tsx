@@ -119,12 +119,12 @@ const ProjectGISSoreang = () => {
               <div>
                 <h3 className="text-2xl font-bold text-slate-900 mb-3 flex items-center gap-2">
                   <Network className="w-6 h-6 text-blue-600" />
-                  {t('Pemetaan Jaringan Multi-Moda', 'Multi-Modal Network Mapping')}
+                  {t('Aksesibilitas Multi-Moda & Pendidikan', 'Multi-Modal & Educational Accessibility')}
                 </h3>
                 <p className="text-slate-600 text-lg leading-relaxed">
                   {t(
-                    'Menampilkan buffer zone (radius pelayanan) titik angkutan umum beserta trace jalur koridor untuk moda seperti Angkot (Soreang - Banjaran, Cimahi, dll), armada Bus Trans Metro Pasundan, hingga Pangkalan Ojek untuk last-mile delivery.',
-                    'Visualizing buffer zones (service radii) of public transit points along with route tracing for various modes such as Angkot (Minivans), Trans Metro Bus fleets, and micro-transit hubs for last-mile delivery.'
+                    'Visualisasi radius sebaran area sekolah (lingkaran biru) yang disandingkan dengan overlay jaringan rute transportasi umum. Analisis ini bertujuan memastikan coverage wilayah pendidikan terjangkau dengan baik oleh rute Angkot, Bus, maupun Pangkalan Ojek.',
+                    'Visualizing the distribution radius of schools (blue circles) overlaid with public transit networks. This analysis aims to ensure that educational facility coverage areas are well-served by minivans (Angkot), bus routes, and local transit hubs.'
                   )}
                 </p>
               </div>
@@ -142,12 +142,12 @@ const ProjectGISSoreang = () => {
               <div>
                 <h3 className="text-2xl font-bold text-slate-900 mb-3 flex items-center gap-2">
                   <Database className="w-6 h-6 text-emerald-600" />
-                  {t('Analisis Service Area Pendidikan', 'Educational Service Area Analysis')}
+                  {t('Analisis Service Area Fasilitas Kesehatan', 'Healthcare Facility Service Area')}
                 </h3>
                 <p className="text-slate-600 text-lg leading-relaxed">
                   {t(
-                    'Penerapan layer Buffer Intersect hijau untuk meninjau secara visual rasio cakupan jangkauan Sekolah Dasar terhadap konsentrasi wilayah perumahan (spatial equity). Sangat membantu untuk alokasi pembangunan sekolah baru.',
-                    'Applying green Intersect Buffer layers to visually review the coverage ratio of Primary Schools against clustered housing developments (spatial equity). Highly useful for allocating new school constructions.'
+                    'Penerapan layer Buffer spasial pada titik keberadaan Rumah Sakit di Kecamatan Soreang. Menampilkan radius pelayanan tercover untuk mengevaluasi pemerataan (spatial equity) fasilitas kesehatan terhadap wilayah hunian.',
+                    'Applying spatial Buffer layers to Hospital locations in Soreang District. This displays the covered service radius to evaluate the spatial equity of healthcare facilities reaching residential areas.'
                   )}
                 </p>
               </div>
