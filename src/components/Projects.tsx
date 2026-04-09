@@ -153,7 +153,7 @@ export default function Projects() {
       id: 11,
       title: t('SensusHub — Sensus & Manajemen Aset BMD', 'SensusHub — Gov Asset Census & Lifecycle Platform'),
       subtitle: t('Platform ERP Inventaris Dinamis', 'Dynamic ERP Inventory Platform'),
-      category: 'Web App',
+      category: 'Consulting',
       description: t(
         'Platform digitalisasi siklus hidup aset BMD dengan Dynamic Custom Columns, QR Code Digital Twin, dan Ticketing System pemeliharaan end-to-end.',
         'Full-lifecycle BMD asset digitalization platform with Dynamic Custom Columns, QR Code Digital Twin, and end-to-end maintenance Ticketing System.'
