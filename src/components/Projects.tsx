@@ -19,6 +19,7 @@ import heroGISSoreang from '@/assets/project-gis-soreang-3.jpg';
 import heroSafetyPlanning from '@/assets/hero-safety-planning.png';
 import heroHbuAnalysis from '@/assets/hero-hbu-analysis.png';
 import heroPravas from '@/assets/hero-pravas.png';
+import heroSensusHub from '@/assets/hero-sensushub.png';
 
 export default function Projects() {
   const { t } = useLanguage();
@@ -147,6 +148,18 @@ export default function Projects() {
       ),
       url: heroGISSoreang,
       href: '/project/gis-soreang',
+    },
+    {
+      id: 11,
+      title: t('SensusHub — Sensus & Manajemen Aset BMD', 'SensusHub — Gov Asset Census & Lifecycle Platform'),
+      subtitle: t('Platform ERP Inventaris Dinamis', 'Dynamic ERP Inventory Platform'),
+      category: 'Web App',
+      description: t(
+        'Platform digitalisasi siklus hidup aset BMD dengan Dynamic Custom Columns, QR Code Digital Twin, dan Ticketing System pemeliharaan end-to-end.',
+        'Full-lifecycle BMD asset digitalization platform with Dynamic Custom Columns, QR Code Digital Twin, and end-to-end maintenance Ticketing System.'
+      ),
+      url: heroSensusHub,
+      href: '/project/sensushub',
     },
   ];
 
