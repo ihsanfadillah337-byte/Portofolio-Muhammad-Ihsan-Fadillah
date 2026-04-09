@@ -1,7 +1,7 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useLanguage } from '@/contexts/LanguageContext';
-import { ArrowLeft, ArrowUp, Database, QrCode, Shield, Layers, Settings, FileText, Zap, ClipboardCheck, BarChart3, Workflow } from 'lucide-react';
+import { ArrowLeft, ArrowUp, Database, QrCode, Shield, Layers, Settings, FileText, Zap, ClipboardCheck, BarChart3, Workflow, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { oneDark } from 'react-syntax-highlighter/dist/esm/styles/prism';
@@ -54,12 +54,24 @@ const ProjectSensusHub = () => {
   const { t } = useLanguage();
   const navigate = useNavigate();
 
+  const [lightboxImg, setLightboxImg] = useState<string | null>(null);
+
   useEffect(() => { window.scrollTo(0, 0); }, []);
   const scrollToTop = () => window.scrollTo({ top: 0, behavior: 'smooth' });
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#F8FAFC] via-[#EFF6FF] to-[#F8FAFC]">
       <Navbar />
+
+      {/* Lightbox Overlay */}
+      {lightboxImg && (
+        <div className="fixed inset-0 z-[100] bg-black/90 flex items-center justify-center p-4 cursor-zoom-out" onClick={() => setLightboxImg(null)}>
+          <button onClick={() => setLightboxImg(null)} className="absolute top-6 right-6 text-white/80 hover:text-white transition-colors z-[101]">
+            <X className="w-8 h-8" />
+          </button>
+          <img src={lightboxImg} alt="Preview" className="max-w-full max-h-[90vh] object-contain rounded-xl shadow-2xl" onClick={(e) => e.stopPropagation()} />
+        </div>
+      )}
 
       {/* Hero */}
       <div className="relative h-[55vh] md:h-[60vh] overflow-hidden bg-gradient-to-br from-[#0F172A] via-[#1E293B] to-[#0F172A]">
@@ -77,7 +89,7 @@ const ProjectSensusHub = () => {
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-editorial font-bold text-white mb-3">SensusHub</h1>
           <p className="text-lg md:text-xl text-blue-200/80 font-medium max-w-2xl mb-6">
-            {t('Platform Sensus & Manajemen Aset Barang Milik Daerah (BMD)', 'Government Asset Census & Lifecycle Management Platform (BMD)')}
+            {t('Platform Sensus & Manajemen Aset Multi-Tenant (Pemerintah & Swasta)', 'Multi-Tenant Asset Census & Lifecycle Management Platform')}
           </p>
           <div className="flex flex-wrap gap-3 mb-2">
             <span className="text-xs font-semibold text-white/60 uppercase tracking-wider self-center mr-1">Role:</span>
@@ -101,28 +113,56 @@ const ProjectSensusHub = () => {
           <p className="text-sm font-bold text-blue-600 uppercase tracking-wider mb-2">TL;DR</p>
           <p className="text-foreground/80 leading-relaxed">
             {t(
-              'SensusHub adalah platform digitalisasi siklus hidup aset Barang Milik Daerah (BMD) yang mengotomasi seluruh proses — dari registrasi & klasifikasi hierarkis, pelabelan QR Code, hingga ticketing system pemeliharaan dan ekstraksi dokumen legal. Arsitektur Dynamic Custom Columns (JSONB + Schema-on-Read) memungkinkan setiap instansi menyesuaikan skema data tanpa migrasi database.',
-              'SensusHub is a full-lifecycle government asset (BMD) digitalization platform that automates the entire process — from hierarchical registration & classification, QR Code labeling, to a maintenance ticketing system and legal document extraction. The Dynamic Custom Columns architecture (JSONB + Schema-on-Read) allows each institution to customize their data schema without database migrations.'
+              'SensusHub adalah platform digitalisasi siklus hidup aset yang dirancang sebagai sistem multi-tenant — melayani kebutuhan sensus Barang Milik Daerah (BMD) instansi pemerintah maupun inventarisasi aset perusahaan swasta dalam satu arsitektur terpadu. Sistem ini mengotomasi seluruh proses dari registrasi & klasifikasi hierarkis, pelabelan QR Code, hingga ticketing system pemeliharaan dan ekstraksi dokumen legal. Arsitektur Dynamic Custom Columns (JSONB + Schema-on-Read) memungkinkan setiap organisasi menyesuaikan skema data tanpa migrasi database.',
+              'SensusHub is a full-lifecycle asset digitalization platform designed as a multi-tenant system — serving both government BMD census needs and private-sector asset inventories within a single unified architecture. The system automates the entire process from hierarchical registration & classification, QR Code labeling, to a maintenance ticketing system and legal document extraction. The Dynamic Custom Columns architecture (JSONB + Schema-on-Read) allows each organization to customize their data schema without database migrations.'
             )}
           </p>
         </div>
 
-        {/* Screenshots Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-12">
-          {[
-            { img: screenshotLogin, label: t('Login / Autentikasi', 'Login / Authentication') },
-            { img: screenshotForm, label: t('Form Registrasi Aset', 'Asset Registration Form') },
-            { img: screenshotAssets, label: t('Daftar Aset & Bulk Actions', 'Asset List & Bulk Actions') },
-            { img: screenshotSettings, label: t('Pengaturan Master Data', 'Master Data Settings') },
-            { img: screenshotReports, label: t('Laporan Kendala / Tiket', 'Issue Reports / Ticketing') },
-          ].map((item, i) => (
-            <div key={i} className="group overflow-hidden rounded-xl border border-slate-200 shadow-sm bg-white">
+        {/* Screenshots — Mixed Layout (Vertical + Horizontal) */}
+        <div className="grid grid-cols-12 gap-4 mb-12">
+          {/* Row 1: Login (vertical/small) + Form (vertical/large) + Assets (horizontal/large) */}
+          <div className="col-span-4 md:col-span-3 group cursor-pointer" onClick={() => setLightboxImg(screenshotLogin)}>
+            <div className="overflow-hidden rounded-xl border border-slate-200 shadow-sm bg-white h-full">
               <div className="overflow-hidden">
-                <img src={item.img} alt={item.label} className="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700" />
+                <img src={screenshotLogin} alt="Login" className="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700" />
               </div>
-              <p className="text-xs text-center text-slate-500 font-medium py-2 px-2">{item.label}</p>
+              <p className="text-xs text-center text-slate-500 font-medium py-2 px-2">{t('Login', 'Login')}</p>
             </div>
-          ))}
+          </div>
+          <div className="col-span-8 md:col-span-5 group cursor-pointer" onClick={() => setLightboxImg(screenshotForm)}>
+            <div className="overflow-hidden rounded-xl border border-slate-200 shadow-sm bg-white h-full">
+              <div className="overflow-hidden">
+                <img src={screenshotForm} alt="Form" className="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700" />
+              </div>
+              <p className="text-xs text-center text-slate-500 font-medium py-2 px-2">{t('Form Registrasi Aset', 'Asset Registration Form')}</p>
+            </div>
+          </div>
+          <div className="col-span-12 md:col-span-4 group cursor-pointer" onClick={() => setLightboxImg(screenshotSettings)}>
+            <div className="overflow-hidden rounded-xl border border-slate-200 shadow-sm bg-white h-full">
+              <div className="overflow-hidden">
+                <img src={screenshotSettings} alt="Settings" className="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700" />
+              </div>
+              <p className="text-xs text-center text-slate-500 font-medium py-2 px-2">{t('Pengaturan Master Data', 'Master Data Settings')}</p>
+            </div>
+          </div>
+          {/* Row 2: Assets list (horizontal/wide) + Reports (horizontal) */}
+          <div className="col-span-7 group cursor-pointer" onClick={() => setLightboxImg(screenshotAssets)}>
+            <div className="overflow-hidden rounded-xl border border-slate-200 shadow-sm bg-white">
+              <div className="overflow-hidden">
+                <img src={screenshotAssets} alt="Assets" className="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700" />
+              </div>
+              <p className="text-xs text-center text-slate-500 font-medium py-2 px-2">{t('Daftar Aset & Bulk Actions', 'Asset List & Bulk Actions')}</p>
+            </div>
+          </div>
+          <div className="col-span-5 group cursor-pointer" onClick={() => setLightboxImg(screenshotReports)}>
+            <div className="overflow-hidden rounded-xl border border-slate-200 shadow-sm bg-white">
+              <div className="overflow-hidden">
+                <img src={screenshotReports} alt="Reports" className="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700" />
+              </div>
+              <p className="text-xs text-center text-slate-500 font-medium py-2 px-2">{t('Laporan Kendala / Tiket', 'Issue Reports / Ticketing')}</p>
+            </div>
+          </div>
         </div>
 
         {/* Section 1: Problem Statement */}
@@ -130,8 +170,8 @@ const ProjectSensusHub = () => {
         <Divider />
         <p className="text-foreground/80 leading-relaxed mb-4">
           {t(
-            'Proses sensus aset Barang Milik Daerah (BMD) di instansi pemerintah masih mengandalkan spreadsheet manual, pelabelan fisik yang rawan rusak, dan alur pelaporan yang terputus antar-divisi. Konsekuensinya sangat merugikan:',
-            'Government asset (BMD) census processes in public institutions still rely on manual spreadsheets, fragile physical labeling, and disconnected inter-division reporting pipelines. The consequences are severe:'
+            'Proses sensus dan inventarisasi aset — baik Barang Milik Daerah (BMD) di instansi pemerintah maupun aset operasional perusahaan swasta — masih mengandalkan spreadsheet manual, pelabelan fisik yang rawan rusak, dan alur pelaporan yang terputus antar-divisi. Konsekuensinya sangat merugikan:',
+            'Asset census and inventory processes — whether government-owned assets (BMD) in public institutions or operational assets in private companies — still rely on manual spreadsheets, fragile physical labeling, and disconnected inter-division reporting pipelines. The consequences are severe:'
           )}
         </p>
         <div className="grid md:grid-cols-3 gap-4 mb-8">
