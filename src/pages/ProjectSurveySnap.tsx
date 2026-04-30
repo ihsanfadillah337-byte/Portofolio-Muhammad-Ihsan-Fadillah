@@ -132,7 +132,9 @@ const ProjectSurveySnap = () => {
 
         {/* Screenshot: Dashboard */}
         <div className="rounded-2xl overflow-hidden shadow-lg bg-white p-2 my-8 border border-slate-200">
-          <img src={screenshotDashboard} alt="SurveySnap Dashboard" className="w-full h-auto rounded-xl" loading="lazy" />
+          <div className="aspect-video overflow-hidden rounded-xl">
+            <img src={screenshotDashboard} alt="SurveySnap Dashboard" className="w-full h-full object-cover object-top" loading="lazy" />
+          </div>
           <p className="text-center text-xs text-foreground/60 mt-2 pb-1">{t('Dashboard — Daftar project survei dengan progress tracking', 'Dashboard — Survey project list with progress tracking')}</p>
         </div>
 
@@ -181,7 +183,9 @@ const ProjectSurveySnap = () => {
 
         {/* Screenshot: Categories */}
         <div className="rounded-2xl overflow-hidden shadow-lg bg-white p-2 my-8 border border-slate-200">
-          <img src={screenshotCategories} alt="SurveySnap Categories" className="w-full h-auto rounded-xl" loading="lazy" />
+          <div className="aspect-video overflow-hidden rounded-xl">
+            <img src={screenshotCategories} alt="SurveySnap Categories" className="w-full h-full object-cover object-top" loading="lazy" />
+          </div>
           <p className="text-center text-xs text-foreground/60 mt-2 pb-1">{t('Kategori dokumentasi sesuai standar KJPP — Tampak Depan, Samping, Belakang, dll.', 'Documentation categories per KJPP standards — Front, Side, Back, Interior, etc.')}</p>
         </div>
 

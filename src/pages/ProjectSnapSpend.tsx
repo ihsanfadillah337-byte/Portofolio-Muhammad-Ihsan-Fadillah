@@ -95,13 +95,17 @@ const ProjectSnapSpend = () => {
           <h2 className="text-3xl font-editorial font-bold text-foreground mb-4">{t('Tampilan Aplikasi', 'App Screenshots')}</h2>
           <div className="w-16 h-1 bg-gradient-to-r from-[#34C759] to-[#2AAF4F] rounded-full mb-6" />
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            <div className="rounded-2xl overflow-hidden shadow-[0_0_30px_rgba(52,199,89,0.1)] bg-white p-3">
-              <img src={screenshot1} alt={t('Dashboard utama SnapSpend', 'SnapSpend main dashboard')} className="w-full h-auto rounded-xl" loading="lazy" />
-              <p className="text-center text-sm text-foreground/60 mt-3">{t('Dashboard — Ringkasan keuangan', 'Dashboard — Financial summary')}</p>
+            <div className="rounded-2xl overflow-hidden shadow-[0_0_30px_rgba(52,199,89,0.1)] bg-white p-3 flex flex-col">
+              <div className="aspect-[9/16] sm:h-[500px] overflow-hidden rounded-xl">
+                <img src={screenshot1} alt={t('Dashboard utama SnapSpend', 'SnapSpend main dashboard')} className="w-full h-full object-cover object-top" loading="lazy" />
+              </div>
+              <p className="text-center text-sm text-foreground/60 mt-3 mt-auto">{t('Dashboard — Ringkasan keuangan', 'Dashboard — Financial summary')}</p>
             </div>
-            <div className="rounded-2xl overflow-hidden shadow-[0_0_30px_rgba(52,199,89,0.1)] bg-white p-3">
-              <img src={screenshot2} alt={t('Halaman laporan SnapSpend', 'SnapSpend reports page')} className="w-full h-auto rounded-xl" loading="lazy" />
-              <p className="text-center text-sm text-foreground/60 mt-3">{t('Reports — Analisis pengeluaran', 'Reports — Spending analysis')}</p>
+            <div className="rounded-2xl overflow-hidden shadow-[0_0_30px_rgba(52,199,89,0.1)] bg-white p-3 flex flex-col">
+              <div className="aspect-[9/16] sm:h-[500px] overflow-hidden rounded-xl">
+                <img src={screenshot2} alt={t('Halaman laporan SnapSpend', 'SnapSpend reports page')} className="w-full h-full object-cover object-top" loading="lazy" />
+              </div>
+              <p className="text-center text-sm text-foreground/60 mt-3 mt-auto">{t('Reports — Analisis pengeluaran', 'Reports — Spending analysis')}</p>
             </div>
           </div>
         </section>

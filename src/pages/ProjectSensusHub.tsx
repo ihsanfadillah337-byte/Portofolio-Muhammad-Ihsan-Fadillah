@@ -123,44 +123,44 @@ const ProjectSensusHub = () => {
         <div className="grid grid-cols-12 gap-4 mb-12">
           {/* Row 1: Login (vertical/small) + Form (vertical/large) + Assets (horizontal/large) */}
           <div className="col-span-4 md:col-span-3 group cursor-pointer" onClick={() => setLightboxImg(screenshotLogin)}>
-            <div className="overflow-hidden rounded-xl border border-slate-200 shadow-sm bg-white h-full">
-              <div className="overflow-hidden">
-                <img src={screenshotLogin} alt="Login" className="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700" />
+            <div className="overflow-hidden rounded-xl border border-slate-200 shadow-sm bg-white h-full flex flex-col">
+              <div className="aspect-[4/3] md:aspect-auto md:h-48 overflow-hidden">
+                <img src={screenshotLogin} alt="Login" className="w-full h-full object-cover object-top transform group-hover:scale-105 transition-transform duration-700" />
               </div>
-              <p className="text-xs text-center text-slate-500 font-medium py-2 px-2">{t('Login', 'Login')}</p>
+              <p className="text-xs text-center text-slate-500 font-medium py-2 px-2 mt-auto">{t('Login', 'Login')}</p>
             </div>
           </div>
           <div className="col-span-8 md:col-span-5 group cursor-pointer" onClick={() => setLightboxImg(screenshotForm)}>
-            <div className="overflow-hidden rounded-xl border border-slate-200 shadow-sm bg-white h-full">
-              <div className="overflow-hidden">
-                <img src={screenshotForm} alt="Form" className="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700" />
+            <div className="overflow-hidden rounded-xl border border-slate-200 shadow-sm bg-white h-full flex flex-col">
+              <div className="aspect-[4/3] md:aspect-auto md:h-48 overflow-hidden">
+                <img src={screenshotForm} alt="Form" className="w-full h-full object-cover object-top transform group-hover:scale-105 transition-transform duration-700" />
               </div>
-              <p className="text-xs text-center text-slate-500 font-medium py-2 px-2">{t('Form Registrasi Aset', 'Asset Registration Form')}</p>
+              <p className="text-xs text-center text-slate-500 font-medium py-2 px-2 mt-auto">{t('Form Registrasi Aset', 'Asset Registration Form')}</p>
             </div>
           </div>
           <div className="col-span-12 md:col-span-4 group cursor-pointer" onClick={() => setLightboxImg(screenshotSettings)}>
-            <div className="overflow-hidden rounded-xl border border-slate-200 shadow-sm bg-white h-full">
-              <div className="overflow-hidden">
-                <img src={screenshotSettings} alt="Settings" className="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700" />
+            <div className="overflow-hidden rounded-xl border border-slate-200 shadow-sm bg-white h-full flex flex-col">
+              <div className="aspect-[4/3] md:aspect-auto md:h-48 overflow-hidden">
+                <img src={screenshotSettings} alt="Settings" className="w-full h-full object-cover object-top transform group-hover:scale-105 transition-transform duration-700" />
               </div>
-              <p className="text-xs text-center text-slate-500 font-medium py-2 px-2">{t('Pengaturan Master Data', 'Master Data Settings')}</p>
+              <p className="text-xs text-center text-slate-500 font-medium py-2 px-2 mt-auto">{t('Pengaturan Master Data', 'Master Data Settings')}</p>
             </div>
           </div>
           {/* Row 2: Assets list (horizontal/wide) + Reports (horizontal) */}
           <div className="col-span-7 group cursor-pointer" onClick={() => setLightboxImg(screenshotAssets)}>
-            <div className="overflow-hidden rounded-xl border border-slate-200 shadow-sm bg-white">
-              <div className="overflow-hidden">
-                <img src={screenshotAssets} alt="Assets" className="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700" />
+            <div className="overflow-hidden rounded-xl border border-slate-200 shadow-sm bg-white h-full flex flex-col">
+              <div className="aspect-[4/3] md:aspect-auto md:h-48 overflow-hidden">
+                <img src={screenshotAssets} alt="Assets" className="w-full h-auto md:h-full object-cover object-top transform group-hover:scale-105 transition-transform duration-700" />
               </div>
-              <p className="text-xs text-center text-slate-500 font-medium py-2 px-2">{t('Daftar Aset & Bulk Actions', 'Asset List & Bulk Actions')}</p>
+              <p className="text-xs text-center text-slate-500 font-medium py-2 px-2 mt-auto">{t('Daftar Aset & Bulk Actions', 'Asset List & Bulk Actions')}</p>
             </div>
           </div>
           <div className="col-span-5 group cursor-pointer" onClick={() => setLightboxImg(screenshotReports)}>
-            <div className="overflow-hidden rounded-xl border border-slate-200 shadow-sm bg-white">
-              <div className="overflow-hidden">
-                <img src={screenshotReports} alt="Reports" className="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700" />
+            <div className="overflow-hidden rounded-xl border border-slate-200 shadow-sm bg-white h-full flex flex-col">
+              <div className="aspect-[4/3] md:aspect-auto md:h-48 overflow-hidden">
+                <img src={screenshotReports} alt="Reports" className="w-full h-auto md:h-full object-cover object-top transform group-hover:scale-105 transition-transform duration-700" />
               </div>
-              <p className="text-xs text-center text-slate-500 font-medium py-2 px-2">{t('Laporan Kendala / Tiket', 'Issue Reports / Ticketing')}</p>
+              <p className="text-xs text-center text-slate-500 font-medium py-2 px-2 mt-auto">{t('Laporan Kendala / Tiket', 'Issue Reports / Ticketing')}</p>
             </div>
           </div>
         </div>

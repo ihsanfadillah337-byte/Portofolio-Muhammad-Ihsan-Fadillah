@@ -110,11 +110,13 @@ const ProjectGISSoreang = () => {
             {/* Feature 1 */}
             <div className="space-y-6">
               <div className="overflow-hidden rounded-2xl border border-slate-200 shadow-sm group">
-                <img 
-                  src={feature1Img} 
-                  alt="Public Transport Network" 
-                  className="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700"
-                />
+                <div className="aspect-video overflow-hidden">
+                  <img 
+                    src={feature1Img} 
+                    alt="Public Transport Network" 
+                    className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
+                  />
+                </div>
               </div>
               <div>
                 <h3 className="text-2xl font-bold text-slate-900 mb-3 flex items-center gap-2">
@@ -133,11 +135,13 @@ const ProjectGISSoreang = () => {
             {/* Feature 2 */}
             <div className="space-y-6">
               <div className="overflow-hidden rounded-2xl border border-slate-200 shadow-sm group">
-                <img 
-                  src={feature2Img} 
-                  alt="Educational Facility Service Area" 
-                  className="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700"
-                />
+                <div className="aspect-video overflow-hidden">
+                  <img 
+                    src={feature2Img} 
+                    alt="Educational Facility Service Area" 
+                    className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
+                  />
+                </div>
               </div>
               <div>
                 <h3 className="text-2xl font-bold text-slate-900 mb-3 flex items-center gap-2">

@@ -165,7 +165,9 @@ const { data } = await supabase
 
         {/* Screenshot: Outbox */}
         <div className="rounded-2xl overflow-hidden shadow-lg bg-white p-2 my-8 border border-slate-200">
-          <img src={screenshotOutbox} alt="DocuTwin Outbox" className="w-full h-auto rounded-xl" loading="lazy" />
+          <div className="aspect-video overflow-hidden rounded-xl">
+            <img src={screenshotOutbox} alt="DocuTwin Outbox" className="w-full h-full object-cover object-top" loading="lazy" />
+          </div>
           <p className="text-center text-xs text-foreground/60 mt-2 pb-1">{t('Outbox — Label pengiriman dengan QR code yang siap cetak', 'Outbox — Shipping label with printable QR code')}</p>
         </div>
 
@@ -205,8 +207,10 @@ if (scannedDoc.destination_skpd === myAgency) {
 
         {/* Screenshot: Dashboard */}
         <div className="rounded-2xl overflow-hidden shadow-lg bg-white p-2 my-8 border border-slate-200">
-          <img src={screenshotDashboard} alt="DocuTwin Dashboard" className="w-full h-auto rounded-xl" loading="lazy" />
-          <p className="text-center text-xs text-foreground/60 mt-2 pb-1">{t('Dashboard — Tampilan Super Admin dengan metric cards dan tabel dokumen real-time', 'Dashboard — Super Admin view with metric cards and real-time document table')}</p>
+          <div className="aspect-video overflow-hidden rounded-xl">
+            <img src={screenshotDashboard} alt="DocuTwin Dashboard" className="w-full h-full object-cover object-top" loading="lazy" />
+          </div>
+          <p className="text-center text-xs text-foreground/60 mt-2 pb-1">{t('Dashboard — Tracking status dokumen secara real-time', 'Dashboard — Real-time document status tracking')}</p>
         </div>
 
         {/* ========== SECTION 3: SECURITY ========== */}
@@ -253,7 +257,9 @@ CREATE POLICY "super_admin_all" ON documents
 
         {/* Screenshot: Login */}
         <div className="rounded-2xl overflow-hidden shadow-lg bg-white p-2 my-8 border border-slate-200">
-          <img src={screenshotLogin} alt="DocuTwin Login" className="w-full h-auto rounded-xl" loading="lazy" />
+          <div className="aspect-video overflow-hidden rounded-xl">
+            <img src={screenshotLogin} alt="DocuTwin Login" className="w-full h-full object-cover object-top" loading="lazy" />
+          </div>
           <p className="text-center text-xs text-foreground/60 mt-2 pb-1">{t('Halaman login & registrasi OPD', 'Login & office registration page')}</p>
         </div>
 

@@ -189,7 +189,9 @@ const ProjectAsetrace = () => {
 
         {/* Screenshot: Dashboard */}
         <div className="rounded-2xl overflow-hidden shadow-[0_0_20px_rgba(59,130,246,0.08)] bg-white p-2 my-8">
-          <img src={screenshot1} alt="Asetrace Dashboard" className="w-full h-auto rounded-xl" loading="lazy" />
+          <div className="aspect-video overflow-hidden rounded-xl">
+            <img src={screenshot1} alt="Asetrace Dashboard" className="w-full h-full object-cover object-top" loading="lazy" />
+          </div>
           <p className="text-center text-xs text-foreground/60 mt-2 pb-1">{t('Dashboard — Overview aset dengan peta lantai real-time', 'Dashboard — Asset overview with real-time floor map')}</p>
         </div>
 

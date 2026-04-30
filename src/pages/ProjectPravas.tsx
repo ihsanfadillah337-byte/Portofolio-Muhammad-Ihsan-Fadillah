@@ -147,10 +147,12 @@ const ProjectPravas = () => {
           <h2 className="text-3xl font-editorial font-bold text-foreground mb-4">{t('Dokumentasi — Momen Tim PRAVAS', 'Behind the Project — PRAVAS Team Moments')}</h2>
           <div className="w-16 h-1 bg-gradient-to-r from-[hsl(217,91%,60%)] to-[hsl(224,76%,48%)] rounded-full mb-6" />
           <div className="relative rounded-2xl overflow-hidden shadow-[0_0_30px_rgba(59,130,246,0.15)]">
-            <img src={teamPhotoImg} alt="PRAVAS Team Award Ceremony" className="w-full h-auto" loading="lazy" decoding="async" />
-            <div className="absolute inset-0 bg-[rgba(59,130,246,0.08)] pointer-events-none" />
+            <div className="aspect-video overflow-hidden">
+              <img src={teamPhotoImg} alt="PRAVAS Team Award Ceremony" className="w-full h-full object-cover" loading="lazy" decoding="async" />
+            </div>
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none" />
+            <p className="absolute bottom-4 left-0 right-0 text-center text-white/90 text-sm font-medium px-4">{t('Momen penyerahan sertifikat juara — kolaborasi tim yang membuahkan hasil.', 'Award ceremony moment — team collaboration that paid off.')}</p>
           </div>
-          <p className="text-center text-sm text-foreground/60 mt-4 italic">{t('Tim PRAVAS pada acara penganugerahan - Juara 2 Lomba Film Pendek E-Commerce', 'PRAVAS Team at the award ceremony - 2nd Place E-Commerce Short Film Competition')}</p>
         </section>
 
         <div className="flex flex-col sm:flex-row gap-4 pt-8">
