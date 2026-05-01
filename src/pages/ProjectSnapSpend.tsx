@@ -5,8 +5,8 @@ import { ArrowLeft, ArrowUp, Smartphone, Mic, Camera, Brain, Wrench } from 'luci
 import { Button } from '@/components/ui/button';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import screenshot1 from '@/assets/project-snapspend-1.jpg';
-import screenshot2 from '@/assets/project-snapspend-2.jpg';
+import screenshot1 from '@/assets/project-snapspend-1.webp';
+import screenshot2 from '@/assets/project-snapspend-2.webp';
 
 const ProjectSnapSpend = () => {
   const { t } = useLanguage();

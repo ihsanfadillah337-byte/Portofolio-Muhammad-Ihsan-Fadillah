@@ -5,8 +5,8 @@ import { ArrowLeft, ArrowUp, Film, Users, Clapperboard, Award, Youtube } from 'l
 import { Button } from '@/components/ui/button';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import bannerImg from '@/assets/project-pravas.jpg';
-import teamPhotoImg from '@/assets/project-pravas-team.jpg';
+import headerImg from '@/assets/project-pravas.webp';
+import teamPhotoImg from '@/assets/project-pravas-team.webp';
 
 const ProjectPravas = () => {
   const { t } = useLanguage();

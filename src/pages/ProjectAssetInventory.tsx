@@ -7,9 +7,9 @@ import { useNavigate } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { SectionHeading } from '@/components/project/ProjectShared';
 
-import bannerImg from '@/assets/project-asset-inventory.jpg';
-import gallery1 from '@/assets/project-asset-inventory-1.jpg';
-import gallery2 from '@/assets/project-asset-inventory-2.jpg';
+import bannerImg from '@/assets/project-asset-inventory.webp';
+import gallery1 from '@/assets/project-asset-inventory-1.webp';
+import gallery2 from '@/assets/project-asset-inventory-2.webp';
 
 const ProjectAssetInventory = () => {
   const { t } = useLanguage();

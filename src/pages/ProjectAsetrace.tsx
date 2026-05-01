@@ -7,10 +7,10 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { CodeBlock, AsciiDiagram, SectionHeading, SubHeading, Divider } from '@/components/project/ProjectShared';
 
-import screenshot1 from '@/assets/project-asetrace-1.jpg';
-import screenshot2 from '@/assets/project-asetrace-2.jpg';
-import screenshot3 from '@/assets/project-asetrace-3.jpg';
-import screenshot4 from '@/assets/project-asetrace-4.jpg';
+import screenshot1 from '@/assets/project-asetrace-1.webp';
+import screenshot2 from '@/assets/project-asetrace-2.webp';
+import screenshot3 from '@/assets/project-asetrace-3.webp';
+import screenshot4 from '@/assets/project-asetrace-4.webp';
 
 const ProjectAsetrace = () => {
   const { t } = useLanguage();

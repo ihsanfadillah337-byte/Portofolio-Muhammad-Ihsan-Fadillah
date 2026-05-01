@@ -7,11 +7,11 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { CodeBlock, AsciiDiagram, SectionHeading, SubHeading, Divider } from '@/components/project/ProjectShared';
 
-import screenshotForm from '@/assets/project-sensushub-form.png';
-import screenshotLogin from '@/assets/project-sensushub-login.png';
-import screenshotSettings from '@/assets/project-sensushub-settings.png';
-import screenshotReports from '@/assets/project-sensushub-reports.png';
-import screenshotAssets from '@/assets/project-sensushub-assets.png';
+import screenshotForm from '@/assets/project-sensushub-form.webp';
+import screenshotLogin from '@/assets/project-sensushub-login.webp';
+import screenshotSettings from '@/assets/project-sensushub-settings.webp';
+import screenshotReports from '@/assets/project-sensushub-reports.webp';
+import screenshotAssets from '@/assets/project-sensushub-assets.webp';
 
 const ProjectSensusHub = () => {
   const { t } = useLanguage();

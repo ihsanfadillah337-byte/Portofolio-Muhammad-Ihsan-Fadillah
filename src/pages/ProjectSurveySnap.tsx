@@ -7,10 +7,10 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { CodeBlock, AsciiDiagram, SectionHeading, SubHeading, Divider } from '@/components/project/ProjectShared';
 
-import screenshotDashboard from '@/assets/project-surveysnap-dashboard.png';
-import screenshotCategories from '@/assets/project-surveysnap-categories.png';
-import screenshotGDrive from '@/assets/project-surveysnap-gdrive.png';
-import screenshotNewProject from '@/assets/project-surveysnap-newproject.png';
+import screenshotDashboard from '@/assets/project-surveysnap-dashboard.webp';
+import screenshotCategories from '@/assets/project-surveysnap-categories.webp';
+import screenshotNewProject from '@/assets/project-surveysnap-newproject.webp';
+import screenshotGDrive from '@/assets/project-surveysnap-gdrive.webp';
 
 const ProjectSurveySnap = () => {
   const { t } = useLanguage();

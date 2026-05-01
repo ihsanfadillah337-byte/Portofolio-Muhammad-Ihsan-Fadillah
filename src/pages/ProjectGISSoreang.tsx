@@ -7,9 +7,9 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { SectionHeading } from '@/components/project/ProjectShared';
 
-import headerImg from '@/assets/project-gis-soreang-3.jpg';
-import feature1Img from '@/assets/project-gis-soreang-1.png';
-import feature2Img from '@/assets/project-gis-soreang-2.png';
+import headerImg from '@/assets/project-gis-soreang-3.webp';
+import feature1Img from '@/assets/project-gis-soreang-1.webp';
+import feature2Img from '@/assets/project-gis-soreang-2.webp';
 
 const ProjectGISSoreang = () => {
   const { t } = useLanguage();

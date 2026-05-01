@@ -7,7 +7,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { SectionHeading } from '@/components/project/ProjectShared';
 
-import bannerImg from '@/assets/hero-commercial-valuation.png';
+import bannerImg from '@/assets/hero-commercial-valuation.webp';
 import {
   Table, TableBody, TableCell, TableHead, TableHeader, TableRow,
 } from "@/components/ui/table";

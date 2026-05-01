@@ -9,17 +9,17 @@ import { useScrollReveal } from '@/hooks/useScrollReveal';
 import { useNavigate } from 'react-router-dom';
 
 // Project Images
-import heroAsetrace from '@/assets/hero-asetrace.png';
-import heroDocuTwin from '@/assets/hero-docutwin.png';
-import heroSurveySnap from '@/assets/hero-surveysnap.png';
-import heroSnapSpend from '@/assets/hero-snapspend.png';
-import heroAssetInventory from '@/assets/hero-asset-inventory.png';
-import heroCommercialValuation from '@/assets/hero-commercial-valuation.png';
-import heroGISSoreang from '@/assets/project-gis-soreang-3.jpg';
-import heroSafetyPlanning from '@/assets/hero-safety-planning.png';
-import heroHbuAnalysis from '@/assets/hero-hbu-analysis.png';
-import heroPravas from '@/assets/hero-pravas.png';
-import heroSensusHub from '@/assets/hero-sensushub.png';
+import heroAsetrace from '@/assets/hero-asetrace.webp';
+import heroDocuTwin from '@/assets/hero-docutwin.webp';
+import heroSurveySnap from '@/assets/hero-surveysnap.webp';
+import heroSnapSpend from '@/assets/hero-snapspend.webp';
+import heroAssetInventory from '@/assets/hero-asset-inventory.webp';
+import heroCommercialValuation from '@/assets/hero-commercial-valuation.webp';
+import heroGISSoreang from '@/assets/project-gis-soreang-3.webp';
+import heroSafetyPlanning from '@/assets/hero-safety-planning.webp';
+import heroHbuAnalysis from '@/assets/hero-hbu-analysis.webp';
+import heroPravas from '@/assets/hero-pravas.webp';
+import heroSensusHub from '@/assets/hero-sensushub.webp';
 
 export default function Projects() {
   const { t } = useLanguage();

@@ -7,10 +7,10 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { SectionHeading } from '@/components/project/ProjectShared';
 
-import bannerImg from '@/assets/project-safety-planning.jpg';
-import galleryImg1 from '@/assets/project-safety-planning-1.jpg';
-import galleryImg2 from '@/assets/project-safety-planning-2.jpg';
-import galleryImg3 from '@/assets/project-safety-planning-3.jpg';
+import bannerImg from '@/assets/project-safety-planning.webp';
+import galleryImg1 from '@/assets/project-safety-planning-1.webp';
+import galleryImg2 from '@/assets/project-safety-planning-2.webp';
+import galleryImg3 from '@/assets/project-safety-planning-3.webp';
 
 const ProjectSafetyPlanning = () => {
   const { t } = useLanguage();

@@ -7,9 +7,9 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { CodeBlock, AsciiDiagram, SectionHeading, SubHeading, Divider } from '@/components/project/ProjectShared';
 
-import screenshotLogin from '@/assets/project-docutwin-login.png';
-import screenshotDashboard from '@/assets/project-docutwin-dashboard.png';
-import screenshotOutbox from '@/assets/project-docutwin-outbox.png';
+import screenshotLogin from '@/assets/project-docutwin-login.webp';
+import screenshotDashboard from '@/assets/project-docutwin-dashboard.webp';
+import screenshotOutbox from '@/assets/project-docutwin-outbox.webp';
 
 const ProjectDocuTwin = () => {
   const { t } = useLanguage();
