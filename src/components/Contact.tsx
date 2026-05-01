@@ -22,15 +22,34 @@ const Contact = () => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulasi pengiriman pesan
-    await new Promise(resolve => setTimeout(resolve, 1500));
-    
-    toast.success(t('Pesan berhasil terkirim!', 'Message sent successfully!'), {
-      description: t('Terima kasih telah menghubungi saya. Saya akan segera membalasnya.', 'Thank you for reaching out. I will get back to you soon.'),
-    });
-    
-    setIsSubmitting(false);
-    (e.target as HTMLFormElement).reset();
+    const formData = new FormData(e.currentTarget);
+    formData.append("access_key", "67ff37ee-c7c5-41eb-93d2-87422cd3b329");
+
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData
+      });
+
+      const data = await response.json();
+
+      if (data.success) {
+        toast.success(t('Pesan berhasil terkirim!', 'Message sent successfully!'), {
+          description: t('Terima kasih telah menghubungi saya. Saya akan segera membalasnya.', 'Thank you for reaching out. I will get back to you soon.'),
+        });
+        (e.target as HTMLFormElement).reset();
+      } else {
+        toast.error(t('Gagal mengirim pesan', 'Failed to send message'), {
+          description: data.message || t('Terjadi kesalahan, silakan coba lagi nanti.', 'An error occurred, please try again later.'),
+        });
+      }
+    } catch (error) {
+      toast.error(t('Kesalahan Koneksi', 'Connection Error'), {
+        description: t('Terjadi kesalahan koneksi, silakan periksa internet Anda.', 'A connection error occurred, please check your internet.'),
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -102,6 +121,7 @@ const Contact = () => {
                   <label className="text-sm font-bold text-foreground/70 ml-1">{t('Nama Lengkap', 'Full Name')}</label>
                   <Input 
                     required 
+                    name="name"
                     placeholder="John Doe" 
                     className="rounded-xl border-[rgba(59,130,246,0.2)] focus:border-[hsl(217,91%,60%)] focus:ring-[hsl(217,91%,60%)]/20 transition-all bg-white/50"
                   />
@@ -110,6 +130,7 @@ const Contact = () => {
                   <label className="text-sm font-bold text-foreground/70 ml-1">{t('Email', 'Email')}</label>
                   <Input 
                     required 
+                    name="email"
                     type="email" 
                     placeholder="john@example.com" 
                     className="rounded-xl border-[rgba(59,130,246,0.2)] focus:border-[hsl(217,91%,60%)] focus:ring-[hsl(217,91%,60%)]/20 transition-all bg-white/50"
@@ -121,6 +142,7 @@ const Contact = () => {
                 <label className="text-sm font-bold text-foreground/70 ml-1">{t('Subjek', 'Subject')}</label>
                 <Input 
                   required 
+                  name="subject"
                   placeholder={t('Tanya tentang Proyek', 'Question about Project')} 
                   className="rounded-xl border-[rgba(59,130,246,0.2)] focus:border-[hsl(217,91%,60%)] focus:ring-[hsl(217,91%,60%)]/20 transition-all bg-white/50"
                 />
@@ -130,6 +152,7 @@ const Contact = () => {
                 <label className="text-sm font-bold text-foreground/70 ml-1">{t('Pesan', 'Message')}</label>
                 <Textarea 
                   required 
+                  name="message"
                   placeholder={t('Halo Ihsan, saya ingin berdiskusi tentang...', 'Hi Ihsan, I would like to discuss...')} 
                   className="min-h-[150px] rounded-2xl border-[rgba(59,130,246,0.2)] focus:border-[hsl(217,91%,60%)] focus:ring-[hsl(217,91%,60%)]/20 transition-all bg-white/50 resize-none"
                 />
