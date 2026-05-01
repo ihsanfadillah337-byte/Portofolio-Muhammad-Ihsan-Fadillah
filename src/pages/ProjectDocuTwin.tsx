@@ -3,49 +3,13 @@ import { useNavigate } from 'react-router-dom';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { ArrowLeft, ArrowUp, FileText, QrCode, Shield, Server, Database, BarChart3, Zap, Scan, Users } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
-import { oneDark } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import { CodeBlock, AsciiDiagram, SectionHeading, SubHeading, Divider } from '@/components/project/ProjectShared';
+
 import screenshotLogin from '@/assets/project-docutwin-login.png';
 import screenshotDashboard from '@/assets/project-docutwin-dashboard.png';
 import screenshotOutbox from '@/assets/project-docutwin-outbox.png';
-
-const CodeBlock = ({ children, language = 'typescript' }: { children: string; language?: string }) => (
-  <div className="rounded-xl overflow-hidden my-6 shadow-lg border border-slate-700/50">
-    <SyntaxHighlighter
-      language={language}
-      style={oneDark}
-      customStyle={{ margin: 0, padding: '1.5rem', fontSize: '0.8125rem', lineHeight: '1.7', borderRadius: 0, background: '#1e1e2e' }}
-      wrapLongLines
-    >
-      {children.trim()}
-    </SyntaxHighlighter>
-  </div>
-);
-
-const AsciiDiagram = ({ children }: { children: string }) => (
-  <div className="rounded-xl overflow-x-auto my-6 shadow-lg border border-slate-700/50 bg-[#1e1e2e] p-6">
-    <pre className="text-[0.7rem] md:text-[0.8rem] leading-relaxed text-emerald-400 font-mono whitespace-pre">
-      {children.trim()}
-    </pre>
-  </div>
-);
-
-const SectionHeading = ({ icon: Icon, children }: { icon: React.ElementType; children: React.ReactNode }) => (
-  <h2 className="text-2xl md:text-3xl font-editorial font-bold text-foreground mb-4 flex items-center gap-3 pt-8">
-    <Icon className="w-7 h-7 text-blue-600 flex-shrink-0" />
-    {children}
-  </h2>
-);
-
-const SubHeading = ({ children }: { children: React.ReactNode }) => (
-  <h3 className="text-xl md:text-2xl font-editorial font-bold text-foreground mt-8 mb-4">{children}</h3>
-);
-
-const Divider = () => (
-  <div className="w-16 h-1 bg-gradient-to-r from-blue-600 to-sky-400 rounded-full mb-6" />
-);
 
 const ProjectDocuTwin = () => {
   const { t } = useLanguage();

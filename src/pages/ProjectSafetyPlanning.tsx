@@ -5,6 +5,8 @@ import { Button } from '@/components/ui/button';
 import { useState, useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import { SectionHeading } from '@/components/project/ProjectShared';
+
 import bannerImg from '@/assets/project-safety-planning.jpg';
 import galleryImg1 from '@/assets/project-safety-planning-1.jpg';
 import galleryImg2 from '@/assets/project-safety-planning-2.jpg';
@@ -37,12 +39,12 @@ const ProjectSafetyPlanning = () => {
 
       <div className="max-w-4xl mx-auto px-6 py-12 space-y-16">
         <section>
-          <h2 className="text-3xl font-heading font-bold text-[hsl(217,91%,60%)] mb-6">{t('Gambaran Umum', 'Overview')}</h2>
+          <SectionHeading iconClassName="text-[hsl(217,91%,60%)]">{t('Gambaran Umum', 'Overview')}</SectionHeading>
           <p className="text-foreground leading-relaxed">{t('Proyek ini bertujuan untuk merencanakan dan menilai kebutuhan fasilitas keselamatan dan kesehatan pada Gedung MI Asih Putera di Bandung. Kegiatan dilakukan untuk meningkatkan standar keselamatan bangunan pendidikan serta menciptakan lingkungan belajar yang lebih aman dan efisien.', 'This project aimed to plan and evaluate the safety and health facility requirements for MI Asih Putera Building in Bandung. It was conducted to improve building safety standards and create a safer, more efficient learning environment.')}</p>
         </section>
 
         <section>
-          <h2 className="text-3xl font-heading font-bold text-[hsl(217,91%,60%)] mb-6">{t('Peran & Tanggung Jawab', 'Role & Responsibility')}</h2>
+          <SectionHeading iconClassName="text-[hsl(217,91%,60%)]">{t('Peran & Tanggung Jawab', 'Role & Responsibility')}</SectionHeading>
           <p className="text-foreground leading-relaxed mb-4">{t('Sebagai ketua tim, saya bertanggung jawab dalam:', 'As the team leader, I was responsible for:')}</p>
           <ul className="list-disc list-inside space-y-2 text-foreground">
             <li>{t('Menyusun konsep perencanaan fasilitas keselamatan.', 'Designing the safety planning concept.')}</li>
@@ -53,7 +55,7 @@ const ProjectSafetyPlanning = () => {
         </section>
 
         <section>
-          <h2 className="text-3xl font-heading font-bold text-[hsl(217,91%,60%)] mb-6">{t('Metodologi / Proses', 'Methodology / Process')}</h2>
+          <SectionHeading iconClassName="text-[hsl(217,91%,60%)]">{t('Metodologi / Proses', 'Methodology / Process')}</SectionHeading>
           <div className="space-y-4">
             {[
               { n: 1, title: t('Observasi Lapangan', 'Field Observation'), desc: t('Mengidentifikasi kondisi aktual fasilitas keselamatan.', 'Identifying the current state of safety facilities.') },
@@ -70,7 +72,7 @@ const ProjectSafetyPlanning = () => {
         </section>
 
         <section>
-          <h2 className="text-3xl font-heading font-bold text-[hsl(217,91%,60%)] mb-6">{t('Alat & Keterampilan', 'Tools & Skills Used')}</h2>
+          <SectionHeading iconClassName="text-[hsl(217,91%,60%)]">{t('Alat & Keterampilan', 'Tools & Skills Used')}</SectionHeading>
           <div className="overflow-x-auto">
             <table className="w-full border-collapse border border-[rgba(59,130,246,0.15)] bg-[rgba(255,255,255,0.25)] backdrop-blur-sm rounded-lg overflow-hidden">
               <thead>
@@ -90,7 +92,7 @@ const ProjectSafetyPlanning = () => {
         </section>
 
         <section>
-          <h2 className="text-3xl font-heading font-bold text-[hsl(217,91%,60%)] mb-6">{t('Hasil & Dampak', 'Results & Impact')}</h2>
+          <SectionHeading iconClassName="text-[hsl(217,91%,60%)]">{t('Hasil & Dampak', 'Results & Impact')}</SectionHeading>
           <ul className="space-y-3 text-foreground">
             <li className="flex items-start"><span className="text-[hsl(217,91%,60%)] mr-2">✓</span><span>{t('Menghasilkan laporan perencanaan fasilitas keselamatan yang komprehensif.', 'Produced a comprehensive safety facility planning report.')}</span></li>
             <li className="flex items-start"><span className="text-[hsl(217,91%,60%)] mr-2">✓</span><span>{t('Memberikan rekomendasi teknis dan konsep "reframing error" sebagai pendekatan proaktif dalam keselamatan.', 'Delivered technical recommendations and introduced the "reframing error" concept as a proactive safety mindset.')}</span></li>
@@ -99,7 +101,7 @@ const ProjectSafetyPlanning = () => {
         </section>
 
         <section>
-          <h2 className="text-3xl font-heading font-bold text-[hsl(217,91%,60%)] mb-6">{t('Galeri', 'Gallery')}</h2>
+          <SectionHeading iconClassName="text-[hsl(217,91%,60%)]">{t('Galeri', 'Gallery')}</SectionHeading>
           <div className="grid md:grid-cols-3 gap-4">
             {galleryImages.map((img, index) => (
               <div key={index} className="aspect-video overflow-hidden rounded-lg cursor-pointer hover:opacity-90 border border-[rgba(59,130,246,0.15)] hover:shadow-[0_0_20px_rgba(59,130,246,0.15)] transition-all" onClick={() => setLightboxImage(img)}>

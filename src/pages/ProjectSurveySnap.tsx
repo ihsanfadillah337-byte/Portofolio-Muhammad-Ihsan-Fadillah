@@ -3,50 +3,14 @@ import { useNavigate } from 'react-router-dom';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { ArrowLeft, ArrowUp, Camera, Wifi, WifiOff, Cloud, FolderOpen, MapPin, Shield, Smartphone, Zap } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
-import { oneDark } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import { CodeBlock, AsciiDiagram, SectionHeading, SubHeading, Divider } from '@/components/project/ProjectShared';
+
 import screenshotDashboard from '@/assets/project-surveysnap-dashboard.png';
 import screenshotCategories from '@/assets/project-surveysnap-categories.png';
 import screenshotGDrive from '@/assets/project-surveysnap-gdrive.png';
 import screenshotNewProject from '@/assets/project-surveysnap-newproject.png';
-
-const CodeBlock = ({ children, language = 'typescript' }: { children: string; language?: string }) => (
-  <div className="rounded-xl overflow-hidden my-6 shadow-lg border border-slate-700/50">
-    <SyntaxHighlighter
-      language={language}
-      style={oneDark}
-      customStyle={{ margin: 0, padding: '1.5rem', fontSize: '0.8125rem', lineHeight: '1.7', borderRadius: 0, background: '#1e1e2e' }}
-      wrapLongLines
-    >
-      {children.trim()}
-    </SyntaxHighlighter>
-  </div>
-);
-
-const AsciiDiagram = ({ children }: { children: string }) => (
-  <div className="rounded-xl overflow-x-auto my-6 shadow-lg border border-slate-700/50 bg-[#1e1e2e] p-6">
-    <pre className="text-[0.7rem] md:text-[0.8rem] leading-relaxed text-emerald-400 font-mono whitespace-pre">
-      {children.trim()}
-    </pre>
-  </div>
-);
-
-const SectionHeading = ({ icon: Icon, children }: { icon: React.ElementType; children: React.ReactNode }) => (
-  <h2 className="text-2xl md:text-3xl font-editorial font-bold text-foreground mb-4 flex items-center gap-3 pt-8">
-    <Icon className="w-7 h-7 text-indigo-600 flex-shrink-0" />
-    {children}
-  </h2>
-);
-
-const SubHeading = ({ children }: { children: React.ReactNode }) => (
-  <h3 className="text-xl md:text-2xl font-editorial font-bold text-foreground mt-8 mb-4">{children}</h3>
-);
-
-const Divider = () => (
-  <div className="w-16 h-1 bg-gradient-to-r from-indigo-600 to-sky-400 rounded-full mb-6" />
-);
 
 const ProjectSurveySnap = () => {
   const { t } = useLanguage();
@@ -106,10 +70,10 @@ const ProjectSurveySnap = () => {
         </div>
 
         {/* ========== SECTION 1: OVERVIEW ========== */}
-        <SectionHeading icon={Camera}>
+        <SectionHeading icon={Camera} iconClassName="text-indigo-600">
           {t('1. Mengapa SurveySnap Dibuat?', '1. Why SurveySnap Was Built')}
         </SectionHeading>
-        <Divider />
+        <Divider className="from-indigo-600 to-sky-400" />
 
         <p className="text-foreground/80 leading-relaxed mb-4">
           {t(
@@ -139,10 +103,10 @@ const ProjectSurveySnap = () => {
         </div>
 
         {/* ========== SECTION 2: HOW IT WORKS ========== */}
-        <SectionHeading icon={Cloud}>
+        <SectionHeading icon={Cloud} iconClassName="text-indigo-600">
           {t('2. Bagaimana Sistemnya Bekerja', '2. How the System Works')}
         </SectionHeading>
-        <Divider />
+        <Divider className="from-indigo-600 to-sky-400" />
 
         <SubHeading>{t('Arsitektur 3-Way Save', '3-Way Save Architecture')}</SubHeading>
         <p className="text-foreground/80 leading-relaxed mb-4">
@@ -190,10 +154,10 @@ const ProjectSurveySnap = () => {
         </div>
 
         {/* ========== SECTION 3: OFFLINE ========== */}
-        <SectionHeading icon={WifiOff}>
+        <SectionHeading icon={WifiOff} iconClassName="text-indigo-600">
           {t('3. Tantangan Teknis & Solusi', '3. Technical Challenges & Solutions')}
         </SectionHeading>
-        <Divider />
+        <Divider className="from-indigo-600 to-sky-400" />
 
         <SubHeading>{t('Offline-First: Data Tidak Boleh Hilang', 'Offline-First: Zero Data Loss')}</SubHeading>
         <p className="text-foreground/80 leading-relaxed mb-4">

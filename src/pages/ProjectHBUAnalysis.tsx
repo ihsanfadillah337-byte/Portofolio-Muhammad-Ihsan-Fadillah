@@ -5,6 +5,8 @@ import { Button } from '@/components/ui/button';
 import { useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import { SectionHeading } from '@/components/project/ProjectShared';
+
 import bannerImg from '@/assets/project-hbu-banner.jpg';
 import {
   Table, TableBody, TableCell, TableHead, TableHeader, TableRow,
@@ -38,17 +40,17 @@ const ProjectHBUAnalysis = () => {
 
       <div className="max-w-6xl mx-auto px-6 py-12 space-y-12">
         <section>
-          <h2 className="text-3xl font-heading font-bold text-[hsl(217,91%,60%)] mb-6">{t('Gambaran Umum', 'Overview')}</h2>
+          <SectionHeading iconClassName="text-[hsl(217,91%,60%)]">{t('Gambaran Umum', 'Overview')}</SectionHeading>
           <p className="text-foreground leading-relaxed text-lg">{t('Proyek ini dilakukan untuk menentukan penggunaan tertinggi dan terbaik (Highest and Best Use) terhadap lahan kosong di Jl. Sadang Sari, Kecamatan Baleendah, Kabupaten Bandung. Analisis ini merupakan bagian dari kegiatan akademik di Program Studi Manajemen Aset Politeknik Negeri Bandung, dengan tujuan mengidentifikasi bentuk pemanfaatan lahan yang paling optimal dari sisi fisik, hukum, pasar, finansial, dan produktivitas maksimum.', 'This project aimed to determine the Highest and Best Use (HBU) of a vacant land located on Jl. Sadang Sari, Baleendah, Bandung. It was conducted under the Asset Management program at Politeknik Negeri Bandung, focusing on identifying the most optimal land utilization based on physical, legal, market, financial, and maximum productivity aspects.')}</p>
         </section>
 
         <section>
-          <h2 className="text-3xl font-heading font-bold text-[hsl(217,91%,60%)] mb-6">{t('Peran & Tanggung Jawab', 'Role & Responsibility')}</h2>
+          <SectionHeading iconClassName="text-[hsl(217,91%,60%)]">{t('Peran & Tanggung Jawab', 'Role & Responsibility')}</SectionHeading>
           <p className="text-foreground leading-relaxed text-lg">{t('Saya berperan sebagai analis lapangan dan penyusun laporan akhir, dengan tanggung jawab utama dalam pengumpulan data, pemetaan, serta analisis spasial dan ekonomi untuk setiap aspek kajian.', 'I acted as a field analyst and report contributor, responsible for data collection, mapping, and conducting spatial and economic analysis for each assessment aspect.')}</p>
         </section>
 
         <section>
-          <h2 className="text-3xl font-heading font-bold text-[hsl(217,91%,60%)] mb-6">{t('Metodologi / Proses', 'Methodology / Process')}</h2>
+          <SectionHeading iconClassName="text-[hsl(217,91%,60%)]">{t('Metodologi / Proses', 'Methodology / Process')}</SectionHeading>
           <ol className="space-y-4 text-foreground leading-relaxed text-lg list-decimal list-inside">
             <li><strong>{t('Identifikasi Tapak:', 'Site Identification:')}</strong> {t('Survei fisik lokasi menggunakan observasi lapangan dan peta spasial.', 'Conducted field observations and spatial mapping.')}</li>
             <li><strong>{t('Analisis Lima Aspek HBU:', 'Five HBU Aspects Analysis:')}</strong> {t('Meliputi aspek fisik, pemasaran, legal, finansial, dan produktivitas maksimum.', 'Physical, Market, Legal, Financial, and Maximum Productivity.')}</li>
@@ -58,7 +60,7 @@ const ProjectHBUAnalysis = () => {
         </section>
 
         <section>
-          <h2 className="text-3xl font-heading font-bold text-[hsl(217,91%,60%)] mb-8">{t('Aspek-Aspek Analisis HBU', 'HBU Analysis Aspects')}</h2>
+          <SectionHeading iconClassName="text-[hsl(217,91%,60%)]">{t('Aspek-Aspek Analisis HBU', 'HBU Analysis Aspects')}</SectionHeading>
           <div className="space-y-8">
             {[
               { emoji: '🏗️', title: t('1. Aspek Fisik (Physically Possible)', '1. Physical Aspect (Physically Possible)'), desc: t('Menilai kondisi fisik lahan, termasuk bentuk, luas, topografi, aksesibilitas, dan utilitas. Lahan di Jl. Sadang Sari seluas ±140 m² memiliki bentuk persegi panjang, topografi datar, akses jalan lingkungan ±3 m, serta drainase baik. Kondisi ini memungkinkan pengembangan skala kecil-menengah seperti kontrakan atau kios pertokoan.', 'Evaluates the physical condition of the site, including shape, size, topography, accessibility, and utilities. The ±140 m² site has a rectangular shape, flat topography, and accessible neighborhood roads (±3 m wide), making it suitable for small to medium-scale developments such as rental housing or retail kiosks.') },
@@ -76,7 +78,7 @@ const ProjectHBUAnalysis = () => {
         </section>
 
         <section>
-          <h2 className="text-3xl font-heading font-bold text-[hsl(217,91%,60%)] mb-6">{t('Tabel Produktivitas Maksimum (Okupansi 70%)', 'Maximum Productivity Table (70% Occupancy)')}</h2>
+          <SectionHeading iconClassName="text-[hsl(217,91%,60%)]">{t('Tabel Produktivitas Maksimum (Okupansi 70%)', 'Maximum Productivity Table (70% Occupancy)')}</SectionHeading>
           <div className="overflow-x-auto rounded-lg border border-[rgba(59,130,246,0.15)]">
             <Table>
               <TableHeader>

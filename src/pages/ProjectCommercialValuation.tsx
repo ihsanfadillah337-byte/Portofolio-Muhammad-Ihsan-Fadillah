@@ -5,17 +5,12 @@ import { Button } from '@/components/ui/button';
 import { useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import { SectionHeading } from '@/components/project/ProjectShared';
+
 import bannerImg from '@/assets/hero-commercial-valuation.png';
 import {
   Table, TableBody, TableCell, TableHead, TableHeader, TableRow,
 } from "@/components/ui/table";
-
-const SectionHeading = ({ children, icon: Icon }: { children: React.ReactNode, icon?: any }) => (
-  <div className="flex items-center gap-3 mb-6">
-    {Icon && <div className="p-2 bg-[hsl(217,91%,60%)]/10 rounded-lg"><Icon className="w-6 h-6 text-[hsl(217,91%,60%)]" /></div>}
-    <h2 className="text-3xl font-heading font-bold text-[hsl(217,91%,60%)]">{children}</h2>
-  </div>
-);
 
 const ProjectCommercialValuation = () => {
   const { t } = useLanguage();
@@ -65,7 +60,7 @@ const ProjectCommercialValuation = () => {
         {/* Project Context */}
         <section className="grid md:grid-cols-3 gap-8 items-start">
           <div className="md:col-span-2 space-y-6">
-            <SectionHeading icon={Store}>{t('Konteks Penilaian', 'Valuation Context')}</SectionHeading>
+            <SectionHeading icon={Store} iconClassName="text-[hsl(217,91%,60%)]">{t('Konteks Penilaian', 'Valuation Context')}</SectionHeading>
             <p className="text-slate-700 leading-relaxed text-lg">
               {t(
                 'Proyek ini merupakan penugasan penilaian aset (Asset Valuation) yang bertujuan untuk mengestimasi Nilai Pasar properti yang berlokasi di Soreang, Kabupaten Bandung. Properti ini berstatus Hak Milik dengan peruntukan ganda: sebagai tempat tinggal (residensial) sekaligus tempat usaha kuliner (Warung Seblak).',
@@ -109,7 +104,7 @@ const ProjectCommercialValuation = () => {
 
         {/* Methodology: 3 Approaches */}
         <section>
-          <SectionHeading icon={Calculator}>{t('Tiga Pendekatan Penilaian (SPI 2018)', 'Three Valuation Approaches (SPI 2018)')}</SectionHeading>
+          <SectionHeading icon={Calculator} iconClassName="text-[hsl(217,91%,60%)]">{t('Tiga Pendekatan Penilaian (SPI 2018)', 'Three Valuation Approaches (SPI 2018)')}</SectionHeading>
           
           <div className="grid lg:grid-cols-3 gap-6">
             {/* Approach 1 */}
@@ -170,7 +165,7 @@ const ProjectCommercialValuation = () => {
 
         {/* Financial Tables */}
         <section>
-          <SectionHeading icon={FileText}>{t('Pembedahan Arus Kas (NOI)', 'Cash Flow Breakdown (NOI)')}</SectionHeading>
+          <SectionHeading icon={FileText} iconClassName="text-[hsl(217,91%,60%)]">{t('Pembedahan Arus Kas (NOI)', 'Cash Flow Breakdown (NOI)')}</SectionHeading>
           
           <div className="overflow-x-auto rounded-xl border border-slate-200 shadow-sm bg-white mb-8">
             <Table>

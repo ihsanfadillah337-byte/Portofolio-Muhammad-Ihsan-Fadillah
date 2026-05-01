@@ -5,6 +5,8 @@ import { Button } from '@/components/ui/button';
 import { ArrowLeft, Building2 } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { useState, useEffect } from 'react';
+import { SectionHeading } from '@/components/project/ProjectShared';
+
 import bannerImg from '@/assets/project-asset-inventory.jpg';
 import gallery1 from '@/assets/project-asset-inventory-1.jpg';
 import gallery2 from '@/assets/project-asset-inventory-2.jpg';
@@ -42,21 +44,21 @@ const ProjectAssetInventory = () => {
       <section className="py-16 px-6">
         <div className="max-w-4xl mx-auto space-y-12">
           <div className="space-y-4">
-            <h2 className="text-3xl font-heading font-bold text-[hsl(217,91%,60%)]">{t('Ringkasan', 'Overview')}</h2>
+            <SectionHeading iconClassName="text-[hsl(217,91%,60%)]">{t('Ringkasan', 'Overview')}</SectionHeading>
             <p className="text-foreground leading-relaxed">
               {t('Proyek ini merupakan bagian dari kegiatan akademik Program Studi Manajemen Aset di Politeknik Negeri Bandung. Tujuannya adalah untuk melakukan pendataan, klasifikasi, dan penilaian aset tetap di SDI Miftahul Iman. Kegiatan ini menjadi dasar pengelolaan aset sekolah yang lebih terstruktur dan efisien.', 'This project was part of the academic program at Politeknik Negeri Bandung. It aimed to collect, classify, and evaluate fixed assets owned by SDI Miftahul Iman, forming the basis of a more efficient and structured asset management system.')}
             </p>
           </div>
 
           <div className="space-y-4">
-            <h2 className="text-3xl font-heading font-bold text-[hsl(217,91%,60%)]">{t('Peran & Tanggung Jawab', 'Role & Responsibility')}</h2>
+            <SectionHeading iconClassName="text-[hsl(217,91%,60%)]">{t('Peran & Tanggung Jawab', 'Role & Responsibility')}</SectionHeading>
             <p className="text-foreground leading-relaxed">
               {t('Sebagai ketua pelaksana, saya bertanggung jawab atas perencanaan proyek, pembagian tugas tim, supervisi survei lapangan, validasi data, dan penyusunan laporan akhir.', 'As the project leader, I was responsible for planning, team coordination, supervising field surveys, validating data, and preparing the final report.')}
             </p>
           </div>
 
           <div className="space-y-4">
-            <h2 className="text-3xl font-heading font-bold text-[hsl(217,91%,60%)]">{t('Metodologi / Proses', 'Methodology / Process')}</h2>
+            <SectionHeading iconClassName="text-[hsl(217,91%,60%)]">{t('Metodologi / Proses', 'Methodology / Process')}</SectionHeading>
             <ol className="list-decimal list-inside space-y-2 text-foreground leading-relaxed">
               <li><strong>{t('Perencanaan:', 'Planning:')}</strong> {t('Menyusun jadwal dan pembagian tugas.', 'Scheduling and task assignment.')}</li>
               <li><strong>{t('Pelaksanaan:', 'Implementation:')}</strong> {t('Mengumpulkan data melalui survei fisik dan wawancara.', 'Data collection through surveys and interviews.')}</li>
@@ -66,7 +68,7 @@ const ProjectAssetInventory = () => {
           </div>
 
           <div className="space-y-4">
-            <h2 className="text-3xl font-heading font-bold text-[hsl(217,91%,60%)]">{t('Alat & Keterampilan', 'Tools & Skills Used')}</h2>
+            <SectionHeading iconClassName="text-[hsl(217,91%,60%)]">{t('Alat & Keterampilan', 'Tools & Skills Used')}</SectionHeading>
             <div className="overflow-x-auto">
               <table className="w-full border-collapse border border-[rgba(59,130,246,0.15)] bg-[rgba(255,255,255,0.25)] backdrop-blur-sm rounded-lg overflow-hidden">
                 <thead>
@@ -86,12 +88,12 @@ const ProjectAssetInventory = () => {
           </div>
 
           <div className="space-y-4">
-            <h2 className="text-3xl font-heading font-bold text-[hsl(217,91%,60%)]">{t('Hasil & Dampak', 'Results & Impact')}</h2>
+            <SectionHeading iconClassName="text-[hsl(217,91%,60%)]">{t('Hasil & Dampak', 'Results & Impact')}</SectionHeading>
             <p className="text-foreground leading-relaxed">{t('Menghasilkan laporan inventarisasi lengkap yang menjadi acuan pengelolaan dan pemeliharaan aset sekolah.', 'Produced a complete inventory report that serves as a reference for future asset maintenance and budgeting.')}</p>
           </div>
 
           <div className="space-y-4">
-            <h2 className="text-3xl font-heading font-bold text-[hsl(217,91%,60%)]">{t('Galeri', 'Gallery')}</h2>
+            <SectionHeading iconClassName="text-[hsl(217,91%,60%)]">{t('Galeri', 'Gallery')}</SectionHeading>
             <div className="grid md:grid-cols-2 gap-4">
               {galleryImages.map((img, index) => (
                 <div key={index} className="relative overflow-hidden rounded-lg border border-[rgba(59,130,246,0.15)] hover:shadow-[0_0_20px_rgba(59,130,246,0.15)] transition-all duration-300 cursor-pointer group" onClick={() => setSelectedImage(img)}>

@@ -5,16 +5,11 @@ import { Button } from '@/components/ui/button';
 import { useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import { SectionHeading } from '@/components/project/ProjectShared';
+
 import headerImg from '@/assets/project-gis-soreang-3.jpg';
 import feature1Img from '@/assets/project-gis-soreang-1.png';
 import feature2Img from '@/assets/project-gis-soreang-2.png';
-
-const SectionHeading = ({ children, icon: Icon }: { children: React.ReactNode, icon?: any }) => (
-  <div className="flex items-center gap-3 mb-6">
-    {Icon && <div className="p-2 bg-[hsl(217,91%,60%)]/10 rounded-lg"><Icon className="w-6 h-6 text-[hsl(217,91%,60%)]" /></div>}
-    <h2 className="text-3xl font-heading font-bold text-[hsl(217,91%,60%)]">{children}</h2>
-  </div>
-);
 
 const ProjectGISSoreang = () => {
   const { t } = useLanguage();
@@ -64,7 +59,7 @@ const ProjectGISSoreang = () => {
         {/* Project Context */}
         <section className="grid md:grid-cols-3 gap-8 items-start">
           <div className="md:col-span-2 space-y-6">
-            <SectionHeading icon={Map}>{t('Konteks & Latar Belakang', 'Context & Background')}</SectionHeading>
+            <SectionHeading icon={Map} iconClassName="text-[hsl(217,91%,60%)]">{t('Konteks & Latar Belakang', 'Context & Background')}</SectionHeading>
             <p className="text-slate-700 leading-relaxed text-lg">
               {t(
                 'Proyek Sistem Informasi Geografis (Web GIS) ini dikembangkan menggunakan platform berbasis Esri. Tujuan utamanya adalah untuk memvisualisasikan layer distribusi fasilitas umum, jangkauan pelayanan pendidikan, dan aksesibilitas jaringan transportasi.',
@@ -104,7 +99,7 @@ const ProjectGISSoreang = () => {
 
         {/* Core Features */}
         <section>
-          <SectionHeading icon={Layers}>{t('Fitur Analisis Overlay Utama', 'Core Overlay Analysis Features')}</SectionHeading>
+          <SectionHeading icon={Layers} iconClassName="text-[hsl(217,91%,60%)]">{t('Fitur Analisis Overlay Utama', 'Core Overlay Analysis Features')}</SectionHeading>
           
           <div className="grid lg:grid-cols-2 gap-12 mt-8">
             {/* Feature 1 */}
